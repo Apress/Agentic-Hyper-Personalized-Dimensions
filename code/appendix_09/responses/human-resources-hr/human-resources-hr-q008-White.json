@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q008",
+  "area": "Human Resources (HR)",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q008-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"A thorough analysis considering various methodologies and data sources is warranted.\",\n    \"strengths\": [\n      \"Recognizes the multifaceted nature of HR initiatives and the complexities of measuring their impact.\",\n      \"Emphasizes the need for robust statistical analysis and consideration of longitudinal data.\",\n      \"Acknowledges the potential for biases and confounding variables to influence cost-benefit assessments.\",\n      \"Highlights the importance of qualitative data alongside quantitative data for a comprehensive understanding.\",\n    ],\n    \"weaknesses\": [\n      \"Limited discussion of specific cost models used for evaluation (e.g., salary increases, training costs, employee retention)\",\n      \"Lack of detail on methodologies for quantifying wellbeing initiatives (e.g., employee satisfaction surveys, productivity metrics, health outcomes)\",\n      \"No explicit mention of ethical considerations in cost-benefit analysis (e.g., potential for inequitable outcomes)\",\n      \"Insufficient emphasis on sensitivity analysis to account for different stakeholder groups within the workforce.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

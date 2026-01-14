@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q002",
+  "area": "Legal and Compliance",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q002-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis suggests potential vulnerabilities in current contract structures regarding profit margin optimization, requiring careful consideration of risk mitigation strategies.\",\n    \"strengths\": [\n      \"Acknowledges the importance of profit margins\",\n      \"Identifies potential weaknesses in existing frameworks\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples or detailed recommendations\",\n      \"Limited scope regarding specific profit margin strategies\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

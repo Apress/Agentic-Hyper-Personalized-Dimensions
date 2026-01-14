@@ -1,0 +1,8 @@
+{
+  "question_id": "research-and-development-r-d-innovation-q002",
+  "area": "Research and Development (R&D) / Innovation",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/research-and-development-r-d-innovation/research-and-development-r-d-innovation-q002-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a moderate risk profile, requiring careful consideration of potential downsides, but opportunities exist for significant advancement.\",\n    \"strengths\": [\n      \"Focus on incremental ROI is a prudent approach.\",\n      \"Identifies key risk factors (market competition, regulatory changes) – crucial for mitigation.\",\n      \"Prioritization of short-term gains provides a tangible path forward.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of quantifiable metrics limits risk assessment.\",\n      \"Limited consideration of long-term sustainability.\",\n      \"Insufficient detail regarding potential risks and mitigating strategies.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

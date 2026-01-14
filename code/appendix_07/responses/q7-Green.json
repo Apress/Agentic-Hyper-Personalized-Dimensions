@@ -1,0 +1,7 @@
+{
+  "question_id": "q7",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/q7-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 3,\n    \"SPEC\": 5,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 3.8,\n  \"justification\": {\n    \"summary\": \"This monetization model presents substantial opportunity for leveraging unusual data, but the proposed strategy requires considerable initial investment to assess potential utility and risk effectively. Requires careful consideration of potential value extraction across diverse sectors.\",\n    \"strengths\": [\n      \"Conceptual exploration of 'Dark Data' monetization – a novel approach\",\n      \"Potential for highly targeted marketing, deep personalization, and predictive modeling based on niche datasets.\",\n      \"Unlocking latent patterns and correlations that might be crucial for emerging technologies.\",\n    ],\n    \"weaknesses\": [\n      \"High risk of 'data deadweight' – significant potential for no return, necessitating robust validation processes.\",\n      \"Requires development of sophisticated data governance frameworks to protect sensitive information.\",\n      \"Ethical concerns surrounding the utilization of unknown data – careful consideration of privacy and bias mitigation is paramount.\",\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

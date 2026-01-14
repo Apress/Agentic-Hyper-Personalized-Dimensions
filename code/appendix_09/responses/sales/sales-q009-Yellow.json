@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q009",
+  "area": "Sales",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/sales/sales-q009-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.3,\n  \"justification\": {\n    \"summary\": \"A thorough evaluation of current sales forecasting methodologies, highlighting areas for significant improvement.  Focuses on actionable suggestions rooted in established principles of business forecasting.\",\n    \"strengths\": [\n      \"Recognizes the critical importance of accurate forecasting for cash flow management. Emphasizes a proactive approach.\",\n      \"Suggests a phased implementation of improvement strategies, prioritizing achievable milestones.\",\n      \"Utilizes established principles of forecasting model validation to justify recommendations.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics to quantify the impact of proposed improvements.  Requires further data exploration to demonstrate ROI.\",\n      \"Doesn't fully address the underlying causes of current forecasting inaccuracies. Qualitative understanding is needed.\",\n      \"The proposed solutions are somewhat broad; further refinement is needed to align with specific business context.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

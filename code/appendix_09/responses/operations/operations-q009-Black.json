@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q009",
+  "area": "Operations",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/operations/operations-q009-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a reasonable assessment, but requires more detailed data and scenario modeling to ensure long-term viability. Current data lacks robust cost comparisons.\",\n    \"strengths\": [\n      \"Identifies key suppliers, crucial for initial evaluation.\",\n      \"Acknowledges the importance of Total Cost of Ownership (TCO) but lacks sufficient detail.\"\n    ],\n    \"weaknesses\": [\n      \"Limited data points – reliance on broad estimates.\",\n      \"No consideration of potential long-term contract terms or penalties.\",\n      \"Missing critical cost components beyond base price.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

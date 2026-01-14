@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q010",
+  "area": "Sales",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/sales/sales-q010-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 4,\n    \"SPEC\": 5,\n    \"ACT\": 5,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"A nuanced assessment of the potential for alignment, requiring a focused approach to value creation.\",\n    \"strengths\": [\n      \"Recognizes the critical importance of profit as a core driver.\",\n      \"Highlights the need for a proactive, not reactive, incentive design.\",\n      \"Emphasizes the complexity of translating volume into sustained value.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks concrete examples of successful alignment strategies.\",\n      \"Overly broad statement regarding 'value' – requires further specification.\",\n      \"Doesn't explicitly address potential pitfalls of prioritizing profit.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q008",
+  "area": "Finance",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/finance/finance-q008-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"Analysis of risk-adjusted return investment opportunities reveals a moderate level of potential for significant returns, warranting cautious consideration and targeted investigation.\",\n    \"strengths\": [\n      \"Focus on diversification and long-term value\",\n      \"Identification of potential alpha generation through specific sectors\",\n      \"Recognizes the importance of robust risk management principles\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific investment criteria or risk tolerance parameters\",\n      \"Limited exploration of market trends and economic forecasts\",\n      \"Insufficient detail regarding projected returns and volatility\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

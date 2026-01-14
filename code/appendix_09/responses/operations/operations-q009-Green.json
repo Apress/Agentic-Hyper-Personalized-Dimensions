@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q009",
+  "area": "Operations",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/operations/operations-q009-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A thorough analysis reveals significant opportunities for cost optimization across key suppliers. The scoring reflects a robust evaluation of supplier performance, prioritizing a balanced approach to encompassing various operational factors.\",\n    \"strengths\": [\n      \"Identified three key suppliers exhibiting strong performance metrics across cost, reliability, and scalability.\",\n      \"Incorporated a comprehensive assessment of total cost of ownership, including maintenance, support, and upgrades, providing a holistic view.\",\n      \"Highlighted a need for enhanced supplier relationship management to drive sustainable cost reductions.\",\n      \"Proposed a phased implementation strategy for cost reduction initiatives.\"\n    ],\n    \"weaknesses\": [\n      \"Limited data granularity regarding specific cost components within each supplier’s portfolio would enhance the analysis’s granularity.\",\n      \"The scoring lacks specific thresholds for each criterion, requiring quantified targets for improvement.\",\n      \"Insufficient discussion of potential risks associated with prioritizing cost savings could be expanded.\",\n      \"The provided justification could leverage more data to strengthen the claims.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q008",
+  "area": "Information Technology (IT)",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q008-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a moderate level of integration risk, requiring careful consideration of potential operational impacts.\",\n    \"strengths\": [\n      \"Identifies potential for automation-driven workflow disruption.\",\n      \"Highlights dependence on legacy systems, creating a vulnerability to obsolescence.\",\n      \"Acknowledges the need for comprehensive testing to mitigate data loss.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of quantifiable metrics for assessing integration effectiveness.\",\n      \"Limited discussion of security implications of automated processes.\",\n      \"Insufficient focus on data integrity and consistency.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

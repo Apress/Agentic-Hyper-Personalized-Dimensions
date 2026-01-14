@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q004",
+  "area": "Finance",
+  "dimension": "RED",
+  "prompt_file": "prompts/finance/finance-q004-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.0,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a need for focused investigation into current forecasting methods. Requires significant refinement to attain optimal performance.\",\n    \"strengths\": [\n      \"Recognizes potential for improvement in current practices.\",\n      \"Highlights uncertainty surrounding established methodologies.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks concrete metrics for evaluating effectiveness.\",\n      \"Limited scope regarding specific data sources and techniques.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

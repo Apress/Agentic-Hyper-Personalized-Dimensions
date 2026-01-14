@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q006",
+  "area": "Finance",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/finance/finance-q006-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"The proposed strategies to improve collection efficiency and debtor days are supported by substantial evidence and rigorous analysis. Specifically, utilizing predictive modeling for credit risk assessment has been shown to increase recovery rates, suggesting a significant improvement. Furthermore, implementing automated data collection processes streamlines the process significantly. However, a quantitative evaluation of the impact on debtor days, measured by a defined metric, is required for a more robust assessment.\",\n    \"strengths\": [\n      \"Identification of key areas for improvement – predictive modeling & automation\",\n      \"Demonstrated impact of increased recovery rates through improved risk assessment\",\n      \"Robust methodology for debt collection\",\n      \"Streamlined data collection processes\"\n    ],\n    \"weaknesses\": [\n      \"Lack of quantifiable metrics for debt recovery impact – further investigation needed.\",\n      \"Limited discussion of potential bottlenecks in the automated data collection system.\",\n      \"No specifics provided regarding the predictive model used – further detail required for validation.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

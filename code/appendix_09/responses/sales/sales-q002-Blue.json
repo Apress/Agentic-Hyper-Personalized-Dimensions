@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q002",
+  "area": "Sales",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/sales/sales-q002-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"Analysis of customer segments reveals significant LTV potential. Data suggests the 'Enterprise' and 'Premium' segments demonstrate the highest lifetime value, warranting focused investigation and resource allocation. The assessment is well-structured, demonstrating a strong understanding of customer lifecycle value and segmentation principles. The core information provided aligns with the specified persona's role – analyzing LTV generation – and utilizes specific, concrete details effectively.\",\n    \"strengths\": [\n      \"Clearly identifies the 'Enterprise' and 'Premium' segments as top LTV drivers.\",\n      \"The analysis demonstrates a thorough understanding of customer lifecycle value.\",\n      \"The structure is logical and easy to follow.\",\n      \"The information is well-supported by data, though lacks specific numerical data (LTV figures).\"\n    ],\n    \"weaknesses\": [\n      \"LTV figures for each segment are not readily available; a detailed breakdown would strengthen the assessment.\",\n      \"The justification is somewhat generic, could benefit from incorporating specific data sources.\",\n      \"Limited discussion of potential factors driving the higher LTV of specific segments.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

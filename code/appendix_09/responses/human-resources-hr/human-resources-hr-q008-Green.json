@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q008",
+  "area": "Human Resources (HR)",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q008-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A robust assessment of cost-benefit modeling, requiring a deep dive into methodology and potential pitfalls. The scoring reflects a significant focus on providing actionable insights. Quantitative data is present, but a stronger emphasis on scenario-based analysis would elevate the assessment.\",\n    \"strengths\": [\n      \"Identifies crucial metrics like ROI, employee engagement, and productivity improvements.\",\n      \"Recognizes the complexity of integrating wellbeing into financial models.\",\n      \"Highlights the need for robust data collection and validation.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of existing measurement frameworks. Needs a concrete framework to demonstrate best practices.\",\n      \"Doesn’t explicitly address the iterative nature of refinement – merely outlining the process.\",\n      \"Could benefit from incorporating qualitative data (e.g., employee surveys) to contextualize the quantitative analysis.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

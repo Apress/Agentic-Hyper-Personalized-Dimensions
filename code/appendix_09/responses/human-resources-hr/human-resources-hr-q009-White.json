@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q009",
+  "area": "Human Resources (HR)",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q009-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"Analysis of available data suggests a high probability of redeploying talent to roles with greater strategic impact, predicated on a rigorous assessment of current workforce capabilities and projected return on investment. A robust framework prioritizing value delivery and efficiency is crucial for optimal resource allocation.\",\n    \"strengths\": [\n      \"Quantifiable metrics suggest potential for enhanced organizational efficiency.\",\n      \"Focus on strategic alignment provides targeted investment opportunities.\",\n      \"Emphasis on quantifiable return on investment fosters proactive planning.\"\n    ],\n    \"weaknesses\": [\n      \"Limited data regarding specific role valuation.  Requires further analysis of projected ROI for redeployment.\",\n      \"Lack of detailed organizational structure mapping to identify optimal redeployment points.  Requires a detailed workforce analysis to pinpoint candidate profiles.\",\n      \"No established framework for evaluating 'higher-value' roles – definition of 'value' requires explicit parameters.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q004",
+  "area": "Human Resources (HR)",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q004-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Analyzing current workforce capabilities reveals significant skill gaps impacting profitability, requiring targeted interventions with demonstrable strategic impact. We’ve identified areas where current processes are hindering optimal resource utilization and revenue generation. Initial analysis suggests a substantial investment in upskilling could yield significant returns.\",\n    \"strengths\": [\n      \"Quantifiable impact assessment through identifying core competencies.\",\n      \"Focus on practical, adaptable skills – not simply rote knowledge.\",\n      \"Emphasis on 'shifting paradigms' rather than just addressing surface-level deficiencies.\",\n      \"Recognizes the value of cross-training – critical for future growth.\"\n    ],\n    \"weaknesses\": [\n      \"Limited scope – currently focusing on a narrow set of skills.  Requires further segmentation by sector or business function.\",\n      \"Lack of specific data on current skill levels (e.g., assessment scores, training completion rates).\",\n      \"No detailed cost-benefit analysis – assessing the ROI of different skill gap remediation strategies is crucial.\",\n      \"Missing a detailed understanding of current business processes that might be impeding skill acquisition.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

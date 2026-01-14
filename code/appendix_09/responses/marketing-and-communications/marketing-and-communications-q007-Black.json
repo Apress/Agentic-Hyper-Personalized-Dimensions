@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q007",
+  "area": "Marketing and Communications",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q007-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a moderate level of comprehensive data coverage, with some areas requiring deeper investigation to assess the robustness of the identified partnerships and influencers' revenue impact.\",\n    \"strengths\": [\n      \"Identifies potential influencer partnerships with demonstrable revenue potential.\",\n      \"Acknowledges a need for more granular data on specific influencer metrics.\"\n    ],\n    \"weaknesses\": [\n      \"Limited scope – focuses primarily on visible partnerships without detailed revenue calculations.  Missing key metrics hindering a robust risk assessment.\",\n      \"Insufficient context – lacks information regarding the specific business models and revenue drivers of the identified influencers.  Correlation analysis is required.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

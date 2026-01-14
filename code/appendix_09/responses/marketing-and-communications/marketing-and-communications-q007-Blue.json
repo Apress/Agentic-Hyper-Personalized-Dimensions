@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q007",
+  "area": "Marketing and Communications",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q007-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Analyzing potential partnerships based on measurable revenue impact requires a thorough evaluation of influencer strategy effectiveness.  The focus is on identifying collaborations that demonstrably generate revenue, leveraging data-driven insights to determine optimal partner selection.  We need to prioritize collaborations with established audience segments and demonstrable ROI.\",\n    \"strengths\": [\n      \"Clearly defines the objective: identifying partners delivering measurable revenue.\",\n      \"Emphasizes the need for data-driven assessment to justify partner selection.\",\n      \"Recognizes the importance of audience segmentation for ROI assessment.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific revenue metrics currently defined.  Quantifiable targets for each collaboration would improve the assessment.\",\n      \"Doesn't explicitly consider brand alignment or long-term strategy – a broader scope would be beneficial.\",\n      \"Doesn’t incorporate any risk assessment factors (e.g., potential negative publicity).\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

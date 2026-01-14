@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q005",
+  "area": "Sales",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/sales/sales-q005-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Analysis suggests that sales activities yielding the highest ROI are those with a demonstrably high conversion rate, requiring focused scaling efforts. The current assessment indicates a strong understanding of the ROI framework, prioritizing impactful strategies. However, more precise data is needed to quantify the specific ROI yield of each activity and its potential for scaling, requiring further investigation into customer acquisition cost and lifetime value.\",\n    \"strengths\": [\n      \"Clear identification of core sales activities.\",\n      \"Robust framework for ROI assessment.\",\n      \"Demonstrated understanding of conversion rate principles.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of quantifiable ROI data for specific activities.\",\n      \"Limited discussion of potential scalability beyond initial ROI.\",\n      \"Could benefit from incorporating additional metrics like customer churn rate.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q001",
+  "area": "Marketing and Communications",
+  "dimension": "RED",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q001-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.0,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a moderate level of clarity and detail.\",\n    \"strengths\": [\n      \"Focus on quantifiable metrics is present.\",\n      \"Acknowledges a need for deeper investigation.\"\n    ],\n    \"weaknesses\": [\n      \"Insufficient data to assess channel effectiveness comprehensively.\",\n      \"Lack of specific context regarding 'lowest' CAC.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

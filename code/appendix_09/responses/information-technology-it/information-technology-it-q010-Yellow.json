@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q010",
+  "area": "Information Technology (IT)",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q010-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A thorough evaluation of vendor management strategies, emphasizing the need for proactive negotiation and leveraging mutually beneficial terms. The assessment requires a balanced consideration of both potential and risk mitigation, focusing on practical, actionable steps towards vendor stability and improved long-term value.”,\n    \"strengths\": [\n      \"Recognizes the critical role of negotiation and proactive relationship building.\",\n      \"Highlights the importance of evaluating value beyond just initial pricing.\",\n      \"Emphasizes the need for long-term strategic alignment with vendors.\",\n      \"Suggests a phased approach to benefit realization\",\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics for measuring the success of negotiation outcomes (e.g., cost savings, revenue growth).\",\n      \"Doesn't fully address potential legal or contractual considerations beyond simple terms.\",\n      \"Limited scope of strategies beyond simple agreement terms.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

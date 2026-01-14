@@ -1,0 +1,7 @@
+{
+  "question_id": "q1",
+  "dimension": "RED",
+  "prompt_file": "prompts/q1-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.0,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a cautious approach to AI diagnosis, prioritizing patient trust and a robust oversight framework. Requires further nuanced investigation into potential risks and biases.\",\n    \"strengths\": [\n      \"Recognizes the transformative potential of AI in healthcare.\",\n      \"Highlights the crucial link between human oversight and patient safety.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific risk assessment details.\",\n      \"Doesn’t delve into the nuances of potential algorithmic bias.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

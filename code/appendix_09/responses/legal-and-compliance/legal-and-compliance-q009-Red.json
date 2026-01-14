@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q009",
+  "area": "Legal and Compliance",
+  "dimension": "RED",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q009-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Requires immediate analysis of potential automation pathways.\",\n    \"strengths\": [\n      \"Focus on cost and error reduction – vital for compliance.\",\n      \"Identifies areas needing deep investigation.\",\n      \"Acknowledges a need for detailed examination of processes\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of automation – requires concrete suggestions.\",\n      \"Does not provide a clear sense of prioritization – needs to determine urgency.\",\n      \"Limited focus on specific compliance areas – requires elaboration\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

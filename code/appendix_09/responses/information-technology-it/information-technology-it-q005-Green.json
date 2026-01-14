@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q005",
+  "area": "Information Technology (IT)",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q005-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Leveraging rapid iteration and demonstrable ROI to maximize payback.\",\n    \"strengths\": [\n      \"Prioritization of technologies with demonstrably high potential for immediate return – particularly those leveraging AI and automation within the supply chain.\",\n      \"Focus on technologies showing strong scalability and rapid adoption rates, mitigating risk.\",\n      \"Considering technologies that offer the best balance of cost, complexity, and projected revenue gains – starting with solutions that have the smallest potential barrier to entry.\",\n    ],\n    \"weaknesses\": [\n      \"Oversimplification of ROI – neglecting long-term strategic value beyond immediate gains.\",\n      \"Lack of granularity in identifying specific, quantifiable payback periods for each technology.\",\n      \"Limited consideration of technological dependencies – focusing solely on immediate impact may overlook synergistic benefits.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q004",
+  "area": "Sales",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/sales/sales-q004-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"The proposed upsell/cross-sell opportunities are well-considered and require a significant focus on revenue growth, leveraging a robust understanding of our customer base's needs. We need to delve deeper into the potential impact of each suggestion on overall profitability.\",\n    \"strengths\": [\n      \"Identifies several relevant opportunities – offering advanced features, premium upgrades, and bundled products.\",\n      \"Recognizes the importance of understanding current customer behavior and predicting future needs.\",\n      \"Suggests data-driven analysis for prioritization\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific quantifiable metrics to evaluate the potential ROI of each opportunity. More detailed projected revenue increases would bolster the assessment.\",\n      \"Doesn't explicitly consider customer lifetime value (CLTV) impact.  Boosting engagement or adding value to existing accounts may be more impactful long-term.\",\n      \"Doesn't include any segmentation information regarding target customer profiles. Targeting different segments with tailored offers could significantly increase conversion rates.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

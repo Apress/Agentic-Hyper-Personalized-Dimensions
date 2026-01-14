@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q003",
+  "area": "Human Resources (HR)",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q003-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.7,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a reasonable balance between engagement and attrition, but requires more focused strategic implementation to enhance long-term retention. Current approach lacks robust data-driven validation.\",\n    \"strengths\": [\n      \"Acknowledges the importance of employee engagement.\",\n      \"Recognizes the need for proactive retention strategies.\"\n    ],\n    \"weaknesses\": [\n      \"Insufficient detail regarding the specific mechanisms being considered.\",\n      \"Lacks concrete recommendations beyond general best practices.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

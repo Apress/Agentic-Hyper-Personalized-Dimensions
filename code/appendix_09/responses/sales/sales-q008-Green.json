@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q008",
+  "area": "Sales",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/sales/sales-q008-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"The current channel landscape reveals a compelling combination of existing partnerships and untapped potential. While established partnerships provide a stable revenue base, diversification offers significant growth opportunities. Our analysis indicates that strategic expansion, particularly focusing on value-added services and niche markets, will be pivotal for maximizing profitability. Existing channels are well-established, but offer limited avenues for innovation – we need to extrapolate and create new revenue streams.\",\n    \"strengths\": [\n      \"Strong existing client base – reduces initial risk.\",\n      \"Established distribution networks – facilitates wider market reach.\",\n      \"Low-risk, predictable revenue streams.\"\n    ],\n    \"weaknesses\": [\n      \"Limited diversification potential – risk of market saturation.\",\n      \"Dependence on established partners – vulnerability to changes in their strategy.\",\n      \"Lack of data on untapped market segments – necessitates proactive research.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

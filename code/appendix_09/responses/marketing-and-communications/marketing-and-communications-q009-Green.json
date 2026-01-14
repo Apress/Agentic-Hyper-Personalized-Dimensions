@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q009",
+  "area": "Marketing and Communications",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q009-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.3,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a moderately robust framework for customer journey optimization, with potential for significant refinement through data-driven insights. The scoring leans towards a ‘good’ level, requiring further attention to quantifiable metrics and strategic prioritization.\",\n    \"strengths\": [\n      \"Clearly defines key customer journey stages (Awareness, Consideration, Decision, Retention, Advocacy).\",\n      \"Recognizes the iterative nature of optimization – initial assessments point to a focused, phased approach.\",\n      \"Emphasizes the importance of segmenting data for tailored interventions.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics for each stage (e.g., conversion rates, engagement levels).\",\n      \"Doesn't detail the expected impact of optimization efforts (e.g., increased revenue, reduced churn).\",\n      \"Doesn't explore potential feedback loops or A/B testing methodologies.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

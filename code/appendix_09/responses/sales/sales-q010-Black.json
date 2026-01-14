@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q010",
+  "area": "Sales",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/sales/sales-q010-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.3,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a need for careful consideration of current incentive structures, prioritizing long-term strategic alignment over immediate volume.\",\n    \"strengths\": [\n      \"Recognizes the importance of sustainability – a crucial element absent from purely volume-driven approaches.\",\n      \"Points to the potential for misalignment – current models could unintentionally stifle growth.\",\n      \"Acknowledges a potential risk of short-term gains at the expense of future profitability.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of how alignment *specifically* translates into profit – requires elaboration.\",\n      \"Doesn't address the underlying motivation for volume-driven strategies – exploring this is vital for mitigation.\",\n      \"Limited discussion of potential resistance to change – needs a consideration of this.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

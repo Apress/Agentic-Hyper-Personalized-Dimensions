@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q007",
+  "area": "Finance",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/finance/finance-q007-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"Analysis of financial cost centers suggests a robust potential for profit generation through targeted optimization and strategic realignment.  The assessment of cost center effectiveness, utilizing quantifiable metrics where available, is consistently high.  Furthermore, a focused assessment of potential revenue streams associated with identified cost centers yields valuable insights.\",\n    \"strengths\": [\n      \"Comprehensive analysis of potential profitability drivers.\",\n      \"Emphasis on strategic cost center evaluation.\",\n      \"Identification of potential revenue enhancements.\",\n      \"Clear articulation of potential profit contributors.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific data on current profitability of each cost center.\",\n      \"Limited quantification of potential profit gains.\",\n      \"No detailed exploration of risk factors associated with specific cost centers.\",\n      \"No discussion of potential synergies between cost center transformation\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

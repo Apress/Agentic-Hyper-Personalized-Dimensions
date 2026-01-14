@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q005",
+  "area": "Finance",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/finance/finance-q005-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"A thorough evaluation considering the core requirements of improved working capital, with a focused and pragmatic approach. Requires a deeper dive into the specific methodologies employed for optimization.\",\n    \"strengths\": [\n      \"Clearly identifies key areas for improvement, focusing on minimizing cash tied-up through inefficient activities.\",\n      \"Emphasizes the importance of detailed analysis and implementation-driven strategies.\",\n      \"Suggests leveraging data analytics as a primary tool for identifying and addressing bottlenecks.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific, actionable recommendations beyond identifying potential improvements. Further detail on projected return on investment is missing.\",\n      \"Doesn't incorporate budgetary considerations or risk assessment – a crucial element for successful implementation.\",\n      \"Doesn't prioritize prioritization – the evaluation lacks a method for determining which initiatives should be addressed first.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

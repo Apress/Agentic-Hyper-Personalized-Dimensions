@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q007",
+  "area": "Operations",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/operations/operations-q007-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Optimizing S&OP for reduced stockouts and overproduction requires a fundamentally adaptable framework. Current approaches often lack granular, data-driven insights, necessitating a shift towards simulation and predictive modeling for enhanced operational efficiency.  The current assessment identifies a need for enhanced visualization and integration of real-time demand forecasting across all facets of the supply chain.\",\n    \"strengths\": [\n      \"Recognizes the critical importance of simulation and predictive modeling for effective S&OP.\",\n      \"Highlights the limitations of reactive inventory management through traditional methods.\",\n      \"Acknowledges the need for improved data integration across the supply chain.\",\n      \"Emphasizes visualization as a key enabler for understanding and managing supply chain dynamics.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific quantifiable metrics (e.g., cost of stockout, production downtime) for evaluation.\",\n      \"Limited consideration of potential biases in forecasting models.\",\n      \"Doesn't explicitly address the role of collaboration between different departments within S&OP.\",\n      \"Doesn’t detail specific model types to be explored (e.g., optimization algorithms).\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

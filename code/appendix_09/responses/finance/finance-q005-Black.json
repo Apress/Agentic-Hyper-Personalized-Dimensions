@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q005",
+  "area": "Finance",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/finance/finance-q005-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Preliminary assessment suggests a need for further investigation into the efficacy of current working capital improvements. Initial analysis indicates potential for moderate risk, requiring enhanced scrutiny of implementation plans and associated financial impact.\",\n    \"strengths\": [\n      \"Acknowledges the importance of working capital\",\n      \"Highlights potential for operational inefficiencies\"\n    ],\n    \"weaknesses\": [\n      \"Limited data on specific improvement proposals\",\n      \"Insufficient context regarding current cash flow challenges\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

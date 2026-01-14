@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q002",
+  "area": "Legal and Compliance",
+  "dimension": "RED",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q002-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.0,\n  \"justification\": {\n    \"summary\": \"Initial assessment – potential for deeper analysis required.\",\n    \"strengths\": [\n      \"Acknowledges the core query.\",\n      \"Highlights the need for further investigation.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific insights regarding profit margin strategies.\",\n      \"Insufficient detail on potential mechanisms.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

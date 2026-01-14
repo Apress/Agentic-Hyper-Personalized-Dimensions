@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q002",
+  "area": "Finance",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/finance/finance-q002-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis indicates a reasonable risk assessment, but potential for inefficient cash flow management necessitates careful consideration of operational strategies.\",\n    \"strengths\": [\n      \"Acknowledges the importance of cash flow enhancement.\",\n      \"Highlights a need for optimization, which is prudent.\"\n    ],\n    \"weaknesses\": [\n      \"Limited specific guidance on improvement methods.\",\n      \"Lacks detailed analysis of potential risks/consequences.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

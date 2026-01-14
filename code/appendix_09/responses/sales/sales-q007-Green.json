@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q007",
+  "area": "Sales",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/sales/sales-q007-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"The optimal pricing and discounting strategy for maximizing margin while maintaining competitive win rates requires a meticulous analysis of various model parameters and potential risk mitigation tactics.  A robust, data-driven approach is paramount, but requires careful consideration of customer segments and market sensitivity.\",\n    \"strengths\": [\n      \"Clearly identifies key factors: margin targets, win rates, and the need for multifaceted discounting.\",\n      \"Emphasizes a risk-aware approach, suggesting sensitivity testing.\",\n      \"Recognizes the iterative nature of optimization – initial adjustments will likely require refinement.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific numerical thresholds for each criterion. Requires detailed data analysis to establish these.\",\n      \"Doesn't address potential cascading effects of discount rates on margins – requires further investigation.\",\n      \"Misses the crucial role of A/B testing in validating chosen discounting strategies.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

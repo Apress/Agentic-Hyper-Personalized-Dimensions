@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q006",
+  "area": "Sales",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/sales/sales-q006-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis suggests potential for moderate risk and requires further investigation without readily available quantifiable data.\",\n    \"strengths\": [\n      \"Focus on pipeline bottlenecks is appropriate\",\n      \"Acknowledgement of potential consequences is necessary\",\n      \"Highlights the need for detailed analysis\"\n    ],\n    \"weaknesses\": [\n      \"Insufficient data to accurately assess risk levels\",\n      \"Limited exploration of root causes\",\n      \"Lack of specific methodologies for identifying bottlenecks\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

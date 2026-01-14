@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q005",
+  "area": "Sales",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/sales/sales-q005-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"Analysis of sales activities reveals significant potential for high ROI, supported by substantial data and targeted optimization strategies. The identified activities demand careful scrutiny to ensure successful execution and maximizing profitability. Quantifiable metrics are recommended for enhanced precision.\",\n    \"strengths\": [\n      \"Identification of three key sales activities – Online Advertising, Direct Sales, and Content Marketing – demonstrates a focused approach.\",\n      \"Data suggests a strong correlation between investment in digital marketing and conversion rates, indicating a high potential ROI.\",\n      \"The recommended scaling of these activities warrants further investigation to determine optimal resource allocation.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific ROI figures for each activity is present, necessitating further data collection.\",\n      \"No detailed cost-benefit analysis is included, hindering a comprehensive risk assessment.\",\n      \"The suggested scaling criteria are too broad; more targeted recommendations are needed to optimize performance.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

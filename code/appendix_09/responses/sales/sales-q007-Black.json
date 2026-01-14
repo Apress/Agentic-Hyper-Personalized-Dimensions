@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q007",
+  "area": "Sales",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/sales/sales-q007-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis requires cautious consideration of margins and win rates. Strategic pricing models require rigorous validation.\",\n    \"strengths\": [\n      \"Explicitly addresses margin maximization and win rate impact.\",\n      \"Recognizes the need for data-driven adjustments.\",\n      \"Highlights the importance of risk mitigation.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific modeling constraints beyond basic margin.\",\n      \"Doesn’t delve deeply into discounting strategies.\",\n      \"Missing risk assessment parameters.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

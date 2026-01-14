@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q009",
+  "area": "Sales",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/sales/sales-q009-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A thorough assessment considering the multifaceted nature of sales forecasting accuracy. Initial exploration reveals a solid foundation, requiring focused refinement through simulation and experimentation.\",\n    \"strengths\": [\n      \"Recognizes the critical role of data quality and robust forecasting models as foundational elements.\",\n      \"Highlights the iterative nature of improvement – focusing on ‘simulation and experimentation’ as a crucial pathway.\",\n      \"Addresses the potential for ‘complexities’ within forecasting, suggesting a need for adaptive methodologies.\",\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics for evaluating forecasting accuracy. Quantifiable targets would enhance the analysis.\",\n      \"Doesn't explicitly propose specific enhancement techniques beyond ‘simulation and experimentation’.”,\n      \"Doesn’t sufficiently address the potential for 'model drift' – a key concern in forecasting.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

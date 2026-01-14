@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q006",
+  "area": "Sales",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/sales/sales-q006-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.8,\n  \"justification\": {\n    \"summary\": \"Pipeline velocity bottlenecks are a critical area for optimization, requiring meticulous analysis to eliminate bottlenecks and improve throughput. This evaluation considers a multi-faceted approach, encompassing data assessment, potential root cause identification, and targeted solutions.\",\n    \"strengths\": [\n      \"Comprehensive assessment of data flow and processing stages.\",\n      \"Identification of potential bottlenecks based on established metrics.\",\n      \"Prioritization of solutions based on impact and feasibility.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific metrics for bottleneck quantification.\",\n      \"Limited exploration of potential bottlenecks across all pipeline stages.\",\n      \"No consideration of cascading effects or feedback loops.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

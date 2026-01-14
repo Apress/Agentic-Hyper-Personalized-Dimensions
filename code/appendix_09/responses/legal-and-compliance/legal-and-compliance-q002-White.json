@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q002",
+  "area": "Legal and Compliance",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q002-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"A robust assessment of contract structuring principles focusing on profit margin optimization, supported by verifiable data points and rigorous analysis of potential strategies. The evaluation considers multifaceted elements – legal frameworks, market dynamics, and risk mitigation, leading to a well-structured and defensible approach to maximizing profitability.\",\n    \"strengths\": [\n      \"Clearly defines key profit margin objectives – focusing on incremental gains and long-term value creation.\",\n      \"Acknowledges the importance of contract design in influencing revenue streams.\",\n      \"Incorporates elements of strategic planning, leveraging market trends for enhanced profitability.\",\n      \"Provides a framework for risk assessment and mitigation related to profit margins.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific examples of contract types or optimal structuring techniques – requiring further detailed elaboration.\",\n      \"Limited exploration of potential legal ramifications and compliance requirements – requires more nuanced investigation.\",\n      \"No quantifiable metrics (e.g., projected profit increases) for demonstrating effectiveness.  This is a foundational aspect needing further detail.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

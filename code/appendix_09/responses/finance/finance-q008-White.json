@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q008",
+  "area": "Finance",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/finance/finance-q008-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"Analysis of investment decision yield potential, prioritizing rigorous data and verifiable risk-adjusted returns.\",\n    \"strengths\": [\n      \"Considers a diverse range of potential investment avenues.\",\n      \"Emphasizes quantifiable risk-adjusted return metrics.\",\n      \"Utilizes established financial models for analysis.\",\n      \"Data-driven approach focusing on recent trends and established methodologies.\"\n    ],\n    \"weaknesses\": [\n      \"Limited consideration of future volatility.\",\n      \"Lack of specific case study examples.\",\n      \"Doesn't explicitly incorporate diversification strategies.\",\n      \"Minimal exploration of ESG factors (potential for future value).\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

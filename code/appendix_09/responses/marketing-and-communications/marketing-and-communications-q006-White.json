@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q006",
+  "area": "Marketing and Communications",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q006-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"Customer churn cost analysis requires a precise, quantifiable approach. Utilizing retention campaigns necessitates robust data collection and targeted interventions to reduce churn. The core information presented is detailed, providing a clear understanding of the factors driving and impacting churn. Quantitative assessment is necessary to accurately estimate the cost.\",\n    \"strengths\": [\n      \"Clearly defines 'customer churn' as a key metric.\",\n      \"Emphasizes the cost reduction goals of retention campaigns.\",\n      \"Provides specific examples of retention strategies.\",\n      \"Quantifies churn as a percentage loss of revenue.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific cost ranges for different churn triggers.\",\n      \"Doesn't detail the methodologies used to estimate churn cost.\",\n      \"Doesn't explore the overall impact of churn on profitability.\",\n      \"Could benefit from incorporating specific industry benchmarks for churn rates.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

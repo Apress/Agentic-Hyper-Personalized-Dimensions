@@ -1,0 +1,8 @@
+{
+  "question_id": "research-and-development-r-d-innovation-q003",
+  "area": "Research and Development (R&D) / Innovation",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/research-and-development-r-d-innovation/research-and-development-r-d-innovation-q003-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.3,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a robust approach to reducing product development costs and risk, leveraging innovative strategies and a focus on phased experimentation. Requires further refinement of cost-benefit analysis and risk mitigation plans.\",\n    \"strengths\": [\n      \"Identifies multiple potential cost reduction techniques – agile methodologies, modular design, leveraging open-source tools.\",\n      \"Highlights the critical importance of early risk assessment through prototyping and simulation.\",\n      \"Emphasizes leveraging 'low-hanging fruit' – initial, easily implemented changes.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks a concrete budget allocation strategy. Quantifying potential ROI for each technique is missing.\",\n      \"Doesn’t explicitly mention tools or methodologies specifically designed for rapid prototyping and iterative design.\",\n      \"Doesn’t address the psychological barriers to innovation – framing the challenge as a challenge to overcome.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

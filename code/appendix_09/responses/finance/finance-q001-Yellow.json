@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q001",
+  "area": "Finance",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/finance/finance-q001-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"Analysis reveals a solid foundation of revenue, margin, and cost structures, though further investigation into specific driver trends is recommended to maximize value potential.\",\n    \"strengths\": [\n      \"Revenue streams appear diverse, suggesting potential for expansion into new markets.\",\n      \"Margin analysis suggests moderate efficiency, indicating room for optimization.\",\n      \"Cost structure analysis points to areas where cost control is critical for profitability.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of detailed breakdown of cost categories – needs categorization for deeper insight.\",\n      \"Limited visibility into key revenue drivers beyond current product lines.\",\n      \"No historical trends data to support strategic forecasts.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

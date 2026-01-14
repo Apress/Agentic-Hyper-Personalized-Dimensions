@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q007",
+  "area": "Sales",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/sales/sales-q007-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"The optimal strategy leverages a weighted approach combining conservative margin protection with strategic discounting to maximize return while minimizing risk to win rates. A robust model considers both financial and operational variables, requiring quantifiable thresholds for margins and discounting rates.\",\n    \"strengths\": [\n      \"Prioritization of conservative margin targets.\",\n      \"Integration of risk assessment through discounting rates.\",\n      \"Focus on maximizing overall profitability\",\n      \"A balanced approach between maximizing profit and minimizing potential losses\",\n      \"Incorporating historical data trends to inform strategic decisions\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific discount rates, requiring further clarification\",\n      \"Limited consideration of long-term profitability impacts.\",\n      \"Insufficient quantification of risk reduction potential.\",\n      \"No explicit consideration for customer segmentation\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

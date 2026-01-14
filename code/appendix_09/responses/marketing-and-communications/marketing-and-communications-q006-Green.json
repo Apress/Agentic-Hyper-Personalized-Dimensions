@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q006",
+  "area": "Marketing and Communications",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q006-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.3,\n  \"justification\": {\n    \"summary\": \"Customer churn is a significant challenge, impacting revenue and strategic alignment. Current retention strategies often rely heavily on reactive measures, lacking proactive investigation into root causes.  A deeper understanding of why customers leave is crucial for effective mitigation.  Focus on identifying specific churn drivers through behavioral analysis and sentiment mapping would yield the most potent retention strategies.\",\n    \"strengths\": [\n      \"Strong emphasis on understanding the underlying reasons for churn.\",\n      \"Recognizes the importance of proactive engagement rather than just reactive interventions.\",\n      \"Highlights the need for behavioral data analysis for optimization.\",\n      \"Acknowledges the value of sentiment analysis in predicting churn.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific data points to quantify churn cost (e.g., average retention rate, cost per lost customer).\",\n      \"Doesn't address specific retention campaign strategies beyond generic 'engagement'.\",\n      \"Doesn't detail the cost structure of existing retention campaigns, just mentioning 'reduction'.\",\n      \"Doesn't consider long-term churn risk vs. short-term churn.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

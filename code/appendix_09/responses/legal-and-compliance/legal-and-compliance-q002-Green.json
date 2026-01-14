@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q002",
+  "area": "Legal and Compliance",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q002-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A robust analysis considering various strategic dimensions, prioritizing innovative profit maximization through contract design. The assessment recognizes key areas of potential risk and necessitates targeted refinement to ensure robust compliance and maximum profitability.\",\n    \"strengths\": [\n      \"Identifies crucial elements of contract structure - tiered pricing models, automated milestone payments, and risk allocation clauses.\",\n      \"Emphasizes the importance of clear liability provisions and dispute resolution mechanisms.\",\n      \"Recognizes the necessity for detailed performance metrics to facilitate accurate profit margin assessment.\",\n      \"Addresses the need for ongoing monitoring and adjustment based on market fluctuations.\"\n    ],\n    \"weaknesses\": [\n      \"Could benefit from a more granular breakdown of specific profit margin targets for different contract types.\",\n      \"Lacks explicit examples of novel contract clauses – further exploration would enhance the practical application.\",\n      \"Doesn’t address potential impact on stakeholder incentives beyond profit.\",\n      \"Limited consideration of long-term contract lifecycle and renewal strategies.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

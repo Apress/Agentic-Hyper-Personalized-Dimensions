@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q006",
+  "area": "Sales",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/sales/sales-q006-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Pipeline velocity bottlenecks are a critical area for optimization, and identifying them requires a rigorous analysis of current throughput. The assessment highlights significant potential for improvement through targeted interventions. While the data quality currently leans towards a 'good' level of detail, a deeper investigation into the specific bottlenecks will yield more substantial value. The current assessment demonstrates a reasonable balance between identifying potential issues and outlining actionable pathways.\",\n    \"strengths\": [\n      \"Recognizes the core issue: bottlenecked pipeline velocity is a significant impediment.\",\n      \"Emphasizes the need for root cause analysis to avoid recurring problems.\",\n      \"Highlights the importance of data-driven decision-making in pipeline optimization.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks concrete examples of bottleneck identification.  The assessment requires more detail on current pipeline metrics.\",\n      \"Limited scope – doesn't explicitly address potential causes of bottlenecks (e.g., inefficient processes, outdated tools).\",\n      \"The 'why' behind velocity is not thoroughly explained, needing more context to establish the urgency of the situation.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

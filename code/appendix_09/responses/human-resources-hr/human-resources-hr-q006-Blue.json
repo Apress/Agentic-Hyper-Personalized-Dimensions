@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q006",
+  "area": "Human Resources (HR)",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q006-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"Analysis of potential reward structures focusing on intrinsic motivation and sustained effort, evaluating potential for enhanced profitability.\",\n    \"strengths\": [\n      \"Clearly identifies the need for incentives beyond monetary gain.\",\n      \"Emphasizes the importance of fostering a culture of dedication and achievement.\",\n      \"Recognizes the potential for a shift in strategy across the organization.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of existing reward systems – requires targeted analysis to refine recommendations.\",\n      \"Doesn't address potential challenges to implementing new incentive structures (e.g., employee resistance).\",\n      \"Limited exploration of potential impact on overall organizational performance beyond profit.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

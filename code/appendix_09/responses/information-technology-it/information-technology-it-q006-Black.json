@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q006",
+  "area": "Information Technology (IT)",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q006-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.6,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a moderate level of detail and structure, but requires more robust data and analysis to achieve full confidence.\",\n    \"strengths\": [\n      \"Clear identification of key considerations for long-term viability.\",\n      \"Acknowledges the potential for significant investment.\",\n      \"Focus on core systems – potentially sufficient for initial planning.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific cost estimates or industry benchmarks.\",\n      \"Missing a crucial element: a detailed breakdown of maintenance and support costs.\",\n      \"Limited consideration of obsolescence risks.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q009",
+  "area": "Information Technology (IT)",
+  "dimension": "RED",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q009-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a reasonable understanding, but requires more concrete data to validate the core question.\",\n    \"strengths\": [\n      \"Acknowledges the importance of reliability targets.\",\n      \"Highlights the connection to revenue and disruption.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics for uptime, MTTR, which are crucial for understanding the impact.\",\n      \"Requires further investigation into the relative importance of each target.\",\n      \"Doesn't address potential risk factors affecting these targets.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

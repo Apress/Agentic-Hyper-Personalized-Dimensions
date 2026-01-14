@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q005",
+  "area": "Legal and Compliance",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q005-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"Negotiation can substantially reduce liabilities and boost profitability through strategic risk mitigation and strengthened contractual terms, supported by detailed analysis of market dynamics and stakeholder interactions. The potential for increased revenue through favorable agreements warrants significant attention.\",\n    \"strengths\": [\n      \"Quantifiable impact on revenue through negotiated contracts – a direct correlation to profitability.\",\n      \"Risk reduction strategies are validated by industry best practices and legal precedents.\",\n      \"Specific examples of profitable agreements demonstrate practical application.\",\n      \"Analysis of market volatility reveals opportunities to adjust agreements.\"\n    ],\n    \"weaknesses\": [\n      \"Requires meticulous data collection and analysis to accurately quantify the return on investment.\",\n      \"Potential for unforeseen liabilities linked to complex agreements necessitates thorough risk assessment.\",\n      \"The benefits are not guaranteed; success depends heavily on skillful negotiation execution.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

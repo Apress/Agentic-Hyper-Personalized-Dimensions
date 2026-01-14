@@ -1,0 +1,8 @@
+{
+  "question_id": "research-and-development-r-d-innovation-q006",
+  "area": "Research and Development (R&D) / Innovation",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/research-and-development-r-d-innovation/research-and-development-r-d-innovation-q006-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"Leveraging existing intellectual property presents a robust strategy for revenue generation. The identified potential for cross-pollination and adaptation mitigates risk and maximizes value. A phased approach focusing on incremental improvements will maximize success.\",\n    \"strengths\": [\n      \"Utilizes established frameworks and models for rapid adaptation.\",\n      \"Identifies potential synergies across multiple intellectual assets.\",\n      \"Emphasizes a 'build on' rather than 'replace' approach to mitigate disruption.\",\n      \"Offers a clear pathway for testing and validation of new revenue streams.\"\n    ],\n    \"weaknesses\": [\n      \"Requires careful assessment of compatibility and scalability of each asset.\",\n      \"Success hinges on identifying truly untapped opportunities within the existing IP portfolio.\",\n      \"Potential for intellectual property disputes necessitate diligent IP protection measures.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q009",
+  "area": "Sales",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/sales/sales-q009-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.8,\n  \"justification\": {\n    \"summary\": \"The current sales forecasting accuracy, while adequate, presents opportunities for significant improvement. A thorough analysis reveals a need for more granular data and proactive adjustments to mitigate potential forecasting errors. We must prioritize a structured approach to optimize forecasting models and enhance data integration across departments.\",\n    \"strengths\": [\n      \"Clearly identifies the need for improved accuracy.\",\n      \"Highlights the complexity of the current forecasting process.\",\n      \"Emphasizes the potential for increased revenue through better forecasting.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics to quantify the current accuracy level (e.g., MAPE, RMSE).\",\n      \"Doesn't address potential root causes of inaccurate forecasting (e.g., seasonality, market trends).\",\n      \"Doesn't suggest specific improvement strategies beyond a general overview.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

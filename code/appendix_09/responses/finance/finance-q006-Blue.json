@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q006",
+  "area": "Finance",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/finance/finance-q006-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.8,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a strong focus on optimizing collection processes and necessitates a proactive approach to debtor management. The assessment prioritizes efficiency improvements while acknowledging the importance of diligent debt recovery.  The scoring reflects a pragmatic and insightful approach to this critical area.\",\n    \"strengths\": [\n      \"Clearly identifies key areas for improvement: inefficient collection and overdue debt.\",\n      \"Emphasizes the need for proactive debtor management strategies.\",\n      \"Demonstrates a thorough understanding of the underlying problem.\",\n      \"Suggests data-driven solutions.\"\n    ],\n    \"weaknesses\": [\n      \"Could benefit from incorporating specific metrics (e.g., collection rate, average days past due).\",\n      \"The justification lacks specific examples of proposed strategies beyond a general statement.\",\n      \"The assessment could benefit from a more detailed breakdown of ‘debtor days’ – suggesting a preliminary scope.”\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

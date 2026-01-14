@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q001",
+  "area": "Sales",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/sales/sales-q001-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 4.1,\n  \"justification\": {\n    \"summary\": \"A thorough evaluation of lead-to-customer conversion rates, prioritizing data-driven recommendations and a strong focus on tangible improvements. The assessment currently leans heavily on qualitative observations regarding potential strategies without rigorous quantification of impact.\",\n    \"strengths\": [\n      \"Acknowledges the importance of conversion rates as a primary metric.\",\n      \"Suggests a proactive approach focused on understanding current performance trends.\",\n      \"Highlights the need for improved tracking and analysis of conversion funnel stages.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific, measurable KPIs (e.g., conversion rates, customer acquisition cost).\",\n      \"Limited consideration of customer journey mapping or segmentation.\",\n      \"Minimal focus on the underlying reasons for low conversion rates (e.g., pain points in the sales process).\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

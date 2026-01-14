@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q004",
+  "area": "Human Resources (HR)",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q004-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.8,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a reasonable level of risk assessment, yet requires further scrutiny of specific skill gaps.\",\n    \"strengths\": [\n      \"Acknowledges the importance of HR functions.\",\n      \"Identifies key areas for improvement.\",\n      \"Considers potential long-term consequences.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks granular detail regarding skill gaps; requires more specific data.\",\n      \"Limited discussion of mitigation strategies for identified constraints.\",\n      \"Focuses largely on general risk assessment, requiring deeper analysis of root causes.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

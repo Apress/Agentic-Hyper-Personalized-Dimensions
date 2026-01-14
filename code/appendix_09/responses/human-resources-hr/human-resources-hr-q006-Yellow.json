@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q006",
+  "area": "Human Resources (HR)",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q006-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"The current reward structure – primarily focusing on output metrics – risks prioritizing activity over sustained profitability. While current incentive models are effective for immediate gains, they lack the robust financial modeling needed to ensure long-term, sustainable growth. This evaluation highlights a potential disconnect between high activity and bottom-line results, necessitating a shift towards a more integrated, performance-based approach.\",\n    \"strengths\": [\n      \"Identifies the inherent risk of over-reliance on activity metrics.\",\n      \"Points to a need for a more nuanced understanding of 'value' beyond simply output.\",\n      \"Recognizes the potential for misalignment between current incentives and strategic objectives.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of reward structures currently in use. Requires a detailed analysis of existing practices to identify vulnerabilities.\",\n      \"Doesn't quantify the impact of current incentives on profitability – a crucial element for robust assessment.\",\n      \"Doesn’t address potential negative consequences of a purely activity-driven model (e.g., employee burnout, reduced innovation).\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

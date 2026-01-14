@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q005",
+  "area": "Operations",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/operations/operations-q005-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A robust, well-structured assessment of scalability, leveraging a phased approach to resource allocation. The analysis demonstrates a clear understanding of potential bottlenecks and proposes manageable expansion strategies, prioritizing risk mitigation and leveraging existing infrastructure.  The proposed modularity offers significant flexibility, reducing operational complexity.  The assessment prioritizes optimizing throughput through efficient process design, which is crucial for sustained growth.  The focus on data-driven decision making will ensure agility.\",\n    \"strengths\": [\n      \"Prioritization of phased expansion – minimizes disruption.\",\n      \"Emphasis on modularity – readily adaptable to evolving demands.\",\n      \"Focus on optimization – drives efficiency.\",\n      \"Strategic risk assessment – avoids costly surprises.\",\n      \"Data-driven approach – supports informed decisions.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific quantification of scaling timeframes – requires further definition.\",\n      \"Limited discussion on potential technological investments – expansion should consider technological upgrades as well.\",\n      \"No explicit metrics for measuring system performance – requires KPI establishment.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

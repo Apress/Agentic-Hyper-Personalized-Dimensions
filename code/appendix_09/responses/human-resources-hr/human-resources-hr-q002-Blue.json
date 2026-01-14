@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q002",
+  "area": "Human Resources (HR)",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q002-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"Analyzing hiring and training strategies based on a comprehensive assessment of potential ROI, prioritizing data-driven insights and robust evaluation criteria.  The scoring leans heavily towards quantifiable results and considers the breadth of strategies required for optimal return.\",\n    \"strengths\": [\n      \"Prioritizes ROI through explicit focus on financial metrics.\",\n      \"Emphasizes strategic alignment with human resources functions.\",\n      \"Utilizes a structured evaluation process with clear criteria.\",\n      \"Strong emphasis on understanding the business context of each strategy.\",\n      \"Considering a wide range of potential implementations.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific quantifiable metrics for each criterion.\",\n      \"Could benefit from incorporating qualitative factors beyond purely financial ROI.\",\n      \"The justification is somewhat broad and lacks granular detail.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

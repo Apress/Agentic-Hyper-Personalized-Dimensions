@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q001",
+  "area": "Marketing and Communications",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q001-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"Initial assessment reveals a robust evaluation framework, prioritizing quantifiable metrics while emphasizing thoroughness. The evaluation focuses on channels offering the lowest customer acquisition cost, with a high degree of specificity regarding potential revenue generation and associated market penetration. The framework demonstrates a strong balance between data-driven analysis and logical reasoning.\",\n    \"strengths\": [\n      \"Clearly identified the primary metric (CAC) – a crucial performance indicator.\",\n      \"Demonstrates a systematic approach to channel analysis with a focus on cost effectiveness.\",\n      \"The criteria are appropriately weighted to highlight key factors.\",\n      \"Provides sufficient detail for evaluation and analysis.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific data sources or industry benchmarks for comparison – requires further refinement.\",\n      \"Could benefit from incorporating qualitative feedback alongside quantitative data.\",\n      \"The justification lacks a strong, specific call to action, further supporting the evaluation.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

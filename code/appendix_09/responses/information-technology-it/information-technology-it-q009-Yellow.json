@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q009",
+  "area": "Information Technology (IT)",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q009-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 4.1,\n  \"justification\": {\n    \"summary\": \"A thorough evaluation, emphasizing the critical importance of uptime, MTTR, and revenue protection through robust reliability targets. The assessment demonstrates a balanced consideration of these factors and suggests a well-defined strategy for maintaining operational stability.  The scoring leans towards a strong, reliable assessment of the impact of these targets.\",\n    \"strengths\": [\n      \"Clearly identifies crucial targets (uptime, MTTR) as paramount to revenue and disruption mitigation.\",\n      \"Demonstrates a focus on preventative measures through the establishment of specific targets.\",\n      \"Provides a reasonable consideration of the potential consequences of failure in maintaining these targets.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks concrete metrics for assessing uptime, MTTR.  The evaluation assumes a baseline understanding of these values, without quantifying them.\",\n      \"Doesn't address the *implementation* of these targets.  Just stating targets isn't enough; understanding how these are achieved is needed.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

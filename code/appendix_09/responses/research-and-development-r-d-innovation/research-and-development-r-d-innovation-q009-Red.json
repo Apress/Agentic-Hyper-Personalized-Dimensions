@@ -1,0 +1,8 @@
+{
+  "question_id": "research-and-development-r-d-innovation-q009",
+  "area": "Research and Development (R&D) / Innovation",
+  "dimension": "RED",
+  "prompt_file": "prompts/research-and-development-r-d-innovation/research-and-development-r-d-innovation-q009-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.0,\n  \"justification\": {\n    \"summary\": \"Initial assessment – requires more focused investigation.\",\n    \"strengths\": [\n      \"Acknowledges the importance of experimentation.\",\n      \"Highlights the need for detail.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks concrete examples of accelerated possibilities.\",\n      \"Limited scope – requires deeper contextualization.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

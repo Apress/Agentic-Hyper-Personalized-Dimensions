@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q006",
+  "area": "Information Technology (IT)",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q006-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"A comprehensive evaluation considering various factors related to total cost of ownership, lifecycle, and value proposition.  The assessment prioritizes detailed investigation and logical reasoning, particularly regarding potential risks and mitigation strategies.  Further refinement would involve benchmarking specific component costs against industry standards and incorporating lifecycle cost analysis.\",\n    \"strengths\": [\n      \"Clearly identifies key components of the core systems.\",\n      \"Recognizes the need for a phased approach to cost optimization.\",\n      \"Emphasizes the importance of lifecycle considerations.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific cost data points.  Needs more granular cost estimations for each component.\",\n      \"Doesn't explicitly address potential risks associated with each lifecycle phase.  A risk assessment matrix would improve strategic planning.\",\n      \"Could benefit from a more detailed breakdown of potential costs across different phases (initial development, maintenance, upgrades).\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

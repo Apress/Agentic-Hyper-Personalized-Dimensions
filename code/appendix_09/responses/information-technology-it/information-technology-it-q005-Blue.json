@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q005",
+  "area": "Information Technology (IT)",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q005-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"Analysis suggests that technology investments yielding the fastest payback are those with a demonstrably high return on investment, requiring a strong focus on quantifiable metrics and careful consideration of risk mitigation strategies.\",\n    \"strengths\": [\n      \"Prioritizes quantifiable ROI, crucial for rapid payback assessments.\",\n      \"Recognizes the need for robust risk management – a critical factor for successful investments.\",\n      \"Emphasizes a data-driven approach to evaluating investment success.\",\n      \"The focus on quantifiable returns suggests an attempt to optimize for returns within defined parameters.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics to quantify the 'fastest' payback – requires further refinement of scoring criteria.\",\n      \"Doesn't explicitly address the types of technology investments considered – a broader scope could improve the analysis.\",\n      \"Limited consideration of potential long-term value versus short-term gains – a potential trade-off consideration would strengthen the assessment.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

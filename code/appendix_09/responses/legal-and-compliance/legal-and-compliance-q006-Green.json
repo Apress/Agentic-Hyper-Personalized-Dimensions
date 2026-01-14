@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q006",
+  "area": "Legal and Compliance",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q006-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"Initial assessment reveals a robust framework for understanding legal and compliance obligations, requiring further detailed analysis and risk mitigation strategies. The core principles regarding prudent reserve allocation are appropriately addressed. However, the scoring lacks specific metrics and qualitative depth to fully evaluate potential risk exposure.\",\n    \"strengths\": [\n      \"Clearly articulated understanding of the fundamental importance of legal and compliance as a priority.\",\n      \"Acknowledges the need for conservative reserves, a pragmatic approach.\",\n      \"Identifies key areas requiring further investigation regarding specific regulatory landscapes.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks quantitative benchmarks or risk assessment methodologies for liability exposure. The current assessment is largely conceptual.\",\n      \"Limited discussion of specific regulatory frameworks – requires integration of relevant jurisdictional details.\",\n      \"No preliminary risk modeling or scenario analysis is present, hindering strategic assessment.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

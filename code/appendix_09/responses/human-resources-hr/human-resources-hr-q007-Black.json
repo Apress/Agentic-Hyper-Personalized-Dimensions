@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q007",
+  "area": "Human Resources (HR)",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q007-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Initial assessment – Automation & Digital Tools offer significant potential but require careful consideration of implementation complexities and potential pitfalls, emphasizing robust risk mitigation strategies.\",\n    \"strengths\": [\n      \"Identification of key benefits – Streamlined processes, data-driven insights, increased efficiency are all valid\",\n      \"Recognition of potential challenges – Human error, security vulnerabilities, and skillset gaps must be addressed\",\n      \"Acknowledges the need for a phased approach\"\n    ],\n    \"weaknesses\": [\n      \"Lack of detailed specificity – ‘increase efficiency’ is vague – needs quantification\",\n      \"Insufficient risk assessment – No mention of ethical implications or employee impact\",\n      \"Limited consideration of disparate technologies – Scope is broad, lacks a focus on specific tool categories\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

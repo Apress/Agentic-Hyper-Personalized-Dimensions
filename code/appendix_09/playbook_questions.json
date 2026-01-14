@@ -1,0 +1,122 @@
+[
+  {
+    "area": "Sales",
+    "questions": [
+      "How can we increase conversion rates from leads to paying customers?",
+      "Which customer segments generate the highest lifetime value (LTV)?",
+      "How can we shorten the sales cycle without losing quality?",
+      "What upsell or cross-sell opportunities exist to grow revenue per customer?",
+      "Which sales activities yield the highest ROI and should be scaled?",
+      "Where are pipeline velocity bottlenecks, and how do we remove them?",
+      "What pricing and discounting guardrails maximize margin without hurting win rates?",
+      "Which channels or partners add the most profitable revenue, and how do we expand them?",
+      "How can we improve sales forecasting accuracy to manage cash flow better?",
+      "How do we align sales incentives directly to profit rather than volume?"
+    ]
+  },
+  {
+    "area": "Operations",
+    "questions": [
+      "How do we reduce process bottlenecks that slow delivery or production?",
+      "Which workflows can be automated to improve speed and accuracy?",
+      "What process improvements deliver the best efficiency gains?",
+      "How can we improve quality control to reduce rework and warranty costs?",
+      "How can we scale operations flexibly as demand increases?",
+      "Which activities should be made, bought, or partnered to optimize cost and speed?",
+      "How do we improve capacity planning (S&OP) to cut stockouts and overproduction?",
+      "What inventory policies (turns, safety stock) minimize working capital and obsolescence?",
+      "Which suppliers deliver the best total cost of ownership, and how do we improve their performance?",
+      "How do safety and compliance improvements reduce downtime and hidden costs?"
+    ]
+  },
+  {
+    "area": "Marketing and Communications",
+    "questions": [
+      "Which channels deliver the lowest customer acquisition cost (CAC)?",
+      "What campaigns generate the highest return on marketing investment (ROMI)?",
+      "How can we strengthen brand trust to increase pricing power?",
+      "Which content formats or platforms drive the best engagement-to-sale conversion?",
+      "How can we reduce marketing waste by automating analytics and targeting?",
+      "What is the cost of customer churn, and how can retention campaigns reduce it?",
+      "Which partnerships or influencers deliver measurable revenue impact?",
+      "How can marketing data be used to forecast and smooth seasonal demand?",
+      "What is the profitability of each customer journey stage, and how can we optimise it?",
+      "How can we align marketing KPIs with profit outcomes instead of vanity metrics?"
+    ]
+  },
+  {
+    "area": "Finance",
+    "questions": [
+      "What are the key profit drivers across revenue, margin, and cost structures?",
+      "Where can we improve cash flow without harming growth?",
+      "Which expenses can be converted from fixed to variable to increase flexibility?",
+      "How can we improve forecasting accuracy to reduce financial surprises?",
+      "What working capital improvements can unlock trapped cash?",
+      "How do we improve collection efficiency and reduce debtor days?",
+      "Which cost centres can be turned into profit contributors?",
+      "What investment decisions yield the highest risk-adjusted return?",
+      "How can we use scenario modelling to optimise profit resilience?",
+      "Where can finance partner with other functions to co-own profit improvement?"
+    ]
+  },
+  {
+    "area": "Human Resources (HR)",
+    "questions": [
+      "How do we align workforce performance directly with profit goals?",
+      "What hiring or training strategies deliver the highest ROI?",
+      "How can we reduce turnover costs while maintaining engagement?",
+      "Which skills gaps most constrain profitability, and how can we close them?",
+      "How can data-driven workforce planning reduce overstaffing or understaffing?",
+      "What reward structures incentivise profit contribution instead of activity?",
+      "How can automation and digital tools increase HR efficiency?",
+      "How do we measure the cost-benefit of culture and wellbeing initiatives?",
+      "Where can we redeploy internal talent to higher-value roles?",
+      "How can HR analytics predict and prevent performance or cost issues?"
+    ]
+  },
+  {
+    "area": "Information Technology (IT)",
+    "questions": [
+      "How can technology reduce operating costs while improving scalability?",
+      "Which systems or tools have the highest total cost of ownership and lowest ROI?",
+      "Where can automation and AI eliminate manual effort or error?",
+      "How can we monetise our data assets safely and ethically?",
+      "Which technology investments deliver the fastest payback?",
+      "What is the total cost of ownership (build vs. buy, life cycle) of our core systems?",
+      "How do we strengthen data governance and privacy to avoid fines and rework?",
+      "Which integrations/APIs remove manual work and errors between systems?",
+      "What reliability targets (uptime, MTTR) protect revenue and reduce disruption?",
+      "How do we manage vendors to avoid lock-in and negotiate better commercial terms?"
+    ]
+  },
+  {
+    "area": "Legal and Compliance",
+    "questions": [
+      "How do we minimize legal risks that could create financial losses?",
+      "How can contracts be structured to secure better profit margins?",
+      "What regulatory compliance is required to avoid fines or penalties?",
+      "How can intellectual property be protected and monetized?",
+      "Where can negotiation reduce liabilities and increase profitability?",
+      "What is our exposure to litigation, and do insurance and reserves cover it prudently?",
+      "Which competition, export, or sector rules could constrain strategy or pricing?",
+      "Are our data processing agreements and retention policies aligned to risk and cost?",
+      "Which compliance processes can be automated to cut cost and error rates?",
+      "How do we shorten the dispute resolution cycle time and recover cash faster?"
+    ]
+  },
+  {
+    "area": "Research and Development (R&D) / Innovation",
+    "questions": [
+      "What unmet customer needs can we solve profitably?",
+      "Which innovations deliver the highest ROI within 12–36 months?",
+      "How can we reduce the cost and risk of new product development?",
+      "How can we differentiate products to command higher margins?",
+      "Which partnerships accelerate innovation without increasing overhead?",
+      "How can we reuse existing IP or technology to create new revenue streams?",
+      "What percentage of R&D spend directly links to measurable profit outcomes?",
+      "How can customer feedback loops improve R&D success rates?",
+      "Where can experimentation be accelerated through digital twins or simulation?",
+      "How can R&D collaborate with sales and marketing to commercialise faster?"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q001",
+  "area": "Legal and Compliance",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q001-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"Analysis of potential legal risks associated with financial operations necessitates rigorous risk mitigation strategies. The level of detail is high, acknowledging complex scenarios and incorporating proactive controls. Quantification of potential risks is necessary, but the assessment includes robust preventative measures.\",\n    \"strengths\": [\n      \"Comprehensive framework outlining key risk areas.\",\n      \"Focus on proactive controls and compliance standards.\",\n      \"Explicitly addresses potential negative outcomes resulting from operational vulnerabilities.\",\n      \"Considers regulatory requirements as a primary safeguard.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific quantifiable metrics for risk assessment. While acknowledging potential risks, the document does not provide specific thresholds or measurable objectives for minimizing losses.\",\n      \"Limited discussion of evolving legal landscapes - needs to include recent amendments or new regulations.\",\n      \"Missing a detailed cost-benefit analysis of implemented controls would enhance strategic recommendation\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

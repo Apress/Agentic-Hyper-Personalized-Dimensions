@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q005",
+  "area": "Finance",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/finance/finance-q005-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"Analysis of available data suggests a robust set of financial improvements capable of enhancing trapped cash. Quantification of potential benefits requires further investigation, but the identified strategies are broadly sound and logically connected to improved cash management.\",\n    \"strengths\": [\n      \"Identifies three key areas: liquidity management, working capital optimization, and risk mitigation.\",\n      \"Suggests targeted improvements such as invoice factoring, accelerated cash collections, and securing longer-term credit lines.\",\n      \"Recognizes the importance of proactive monitoring and assessment for effective implementation.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific data on projected cash flow impact across different scenarios. A detailed ROI analysis would strengthen the justification.\",\n      \"No mention of industry-specific regulations or compliance requirements impacting these improvements. Further analysis would be beneficial.\",\n      \"Limited exploration of alternative financing options beyond traditional factoring.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q001",
+  "area": "Information Technology (IT)",
+  "dimension": "RED",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q001-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.0,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a moderate level of understanding, prioritizing conceptual clarity over precise quantitative measures.\",\n    \"strengths\": [\n      \"Acknowledges the core query of cost reduction and scalability.\",\n      \"Identifies potential avenues for investigation – resource optimization.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks concrete examples of technology implementation strategies.\",\n      \"Requires further exploration of specific technological solutions.\",\n      \"Limited assessment of potential return on investment.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

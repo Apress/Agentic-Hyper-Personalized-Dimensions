@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q001",
+  "area": "Legal and Compliance",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q001-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a moderate level of risk, requiring careful consideration of potential vulnerabilities and compliance implications.\",\n    \"strengths\": [\n      \"Explicitly addresses financial losses as a key objective.\",\n      \"Recognizes the need for proactive mitigation strategies.\",\n      \"Highlights the complexity of legal and compliance frameworks.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific risk assessment methodologies.\",\n      \"Insufficient detail on potential legal pitfalls.\",\n      \"Limited discussion of preventative measures beyond basic compliance.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q002",
+  "area": "Information Technology (IT)",
+  "dimension": "RED",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q002-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.0,\n  \"justification\": {\n    \"summary\": \"Preliminary assessment suggesting potential for cost burden and operational complexities without quantifiable metrics.\",\n    \"strengths\": [\n      \"Acknowledges key areas of concern\",\n      \"Identifies a need for deeper investigation\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific data to support assessment\",\n      \"Doesn’t demonstrate a clear understanding of ROI metrics\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

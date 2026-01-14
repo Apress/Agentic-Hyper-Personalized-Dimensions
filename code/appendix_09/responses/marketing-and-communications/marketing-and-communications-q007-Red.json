@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q007",
+  "area": "Marketing and Communications",
+  "dimension": "RED",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q007-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.0,\n  \"justification\": {\n    \"summary\": \"Preliminary assessment requiring further investigation of data availability and potential impact metrics.\",\n    \"strengths\": [\n      \"Acknowledges the importance of partnerships and influencers.\",\n      \"Highlights a need for quantifiable data on revenue delivery.\"\n    ],\n    \"weaknesses\": [\n      \"Limited contextual information regarding specific partnerships/influencers.\",\n      \"Lack of concrete examples of measurable revenue impact.\",\n      \"Insufficient depth of analysis required.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

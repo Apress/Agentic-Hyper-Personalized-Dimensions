@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q003",
+  "area": "Operations",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/operations/operations-q003-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Initial assessment indicates a strong focus on quantifiable improvements.  Analysis of current operational metrics, focusing on process automation and resource allocation, suggests significant potential for efficiency gains.  However, further investigation into specific quantifiable targets is required to fully validate these possibilities and provide concrete actionable recommendations.  Current data suggests moderate operational efficiency across several key processes.\",\n    \"strengths\": [\n      \"Prioritized focus on automation and optimization – a direct route to increased output.\",\n      \"Recognizes the need for robust data tracking to assess effectiveness.\",\n      \"Demonstrates a thoughtful consideration of resource allocation.\",\n      \"Focus on quantifiable metrics provides a measurable basis for evaluation.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics to quantify improvements, requiring substantial data collection.\",\n      \"Limited context on the current operational landscape – no historical data or baseline measurements.\",\n      \"No specific recommendations for implementation at this stage.\",\n      \"Assessment remains broad and doesn't delve into deeper operational analysis.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

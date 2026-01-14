@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q005",
+  "area": "Marketing and Communications",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q005-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"This assessment suggests a strong understanding of the importance of automated analytics and targeting, with a focus on optimizing marketing efforts. While the analysis is comprehensive, incorporating concrete data-driven insights would further strengthen the argument. The recommended actions are well-considered and practical.\",\n    \"strengths\": [\n      \"Clearly identifies the core challenge: waste reduction through automation.\",\n      \"Recognizes the critical role of analytics in efficient targeting.\",\n      \"Offers a proactive approach to optimization.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific quantifiable metrics to demonstrate the impact of automation.  'Reduce marketing waste' is broad; providing examples would bolster the argument.\",\n      \"Could benefit from a deeper exploration of the *types* of marketing data and analytics that would be most effective for reducing waste. (e.g., segmentation, A/B testing, personalized campaigns).\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

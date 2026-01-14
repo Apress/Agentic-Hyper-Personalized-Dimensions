@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q002",
+  "area": "Sales",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/sales/sales-q002-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 5,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a reasonable assessment, but requires more granular detail to fully gauge the 'best' customer segments.\",\n    \"strengths\": [\n      \"Clearly identifies the importance of lifetime value.\",\n      \"Focuses on key customer segments.\",\n      \"Acknowledges the need for further investigation.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific data points regarding segment size & contribution.\",\n      \"Doesn't address potential risks associated with each segment.\",\n      \"Doesn't offer preliminary recommendations for leveraging data.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

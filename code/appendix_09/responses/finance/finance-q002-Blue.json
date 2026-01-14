@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q002",
+  "area": "Finance",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/finance/finance-q002-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a solid foundation for improving cash flow without significant growth disruption. The analysis focuses on optimized current practices and potential cost reduction strategies. Requires further investigation into the specific metrics used to measure 'growth'.\",\n    \"strengths\": [\n      \"Clearly identifies key areas for improvement.\",\n      \"Considers both current performance and potential cost savings.\",\n      \"Emphasizes the importance of monitoring key indicators.\",\n      \"Acknowledges the need for further data analysis.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics to quantify 'growth'.\",\n      \"Doesn't address potential risk factors associated with any proposed changes.\",\n      \"Limited focus on long-term sustainability of improvements.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

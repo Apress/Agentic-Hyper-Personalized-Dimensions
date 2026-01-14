@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q006",
+  "area": "Human Resources (HR)",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q006-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Analyzing the impact of reward structures on contribution, prioritizing innovative and practical strategies for maximizing value. Focus on robust, actionable insights derived from a comprehensive assessment.\",\n    \"strengths\": [\n      \"Explicitly addresses the core question of incentivizing profit through alternative reward models.\",\n      \"Emphasizes ‘breakthrough’ thinking – recognizing the need for unconventional approaches.\",\n      \"Utilizes a weighted scoring system that considers multiple facets of the evaluation.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks detailed examples of reward structures, potentially hindering concrete recommendations. Needs probing to specify practical application.\",\n      \"The justification section is relatively brief; more specific examples of ‘innovative’ reward systems would strengthen the analysis.\",\n      \"‘Distinctiveness’ score is low; requires more explicit criteria for differentiation.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

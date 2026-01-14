@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q007",
+  "area": "Legal and Compliance",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q007-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.6,\n  \"justification\": {\n    \"summary\": \"Analysis indicates a moderately cautious approach to strategic planning, with potential for overlooked risk mitigation.\",\n    \"strengths\": [\n      \"Acknowledges the importance of thorough assessment\",\n      \"Highlights a need for expanded risk modeling\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific detail on potential regulatory constraints\",\n      \"Limited consideration of market dynamics' impact\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

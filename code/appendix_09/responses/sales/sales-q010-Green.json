@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q010",
+  "area": "Sales",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/sales/sales-q010-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"A comprehensive analysis reveals a solid foundation for incentivizing profit, requiring focused refinement of current approaches. Initial assessment indicates a strong understanding of the core challenge, but warrants deeper exploration of the underlying mechanisms driving current performance metrics.\",\n    \"strengths\": [\n      \"Identifies the critical need for a shift from volume-based incentives to value-driven goals.\",\n      \"Recognizes the potential for misinterpretation of current reward structures, suggesting a need for pilot testing of novel metrics.\",\n      \"Considers the psychological impact of increased focus on profit, suggesting the need for greater transparency and accountability.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of alternative incentive models currently in use – requires analysis of existing practices to inform recommendations.\",\n      \"Doesn't delve into potential obstacles to implementation – an exploration of resistance to change is needed.\",\n      \"Doesn't explicitly consider long-term strategic alignment – emphasizing immediate profit goals at the expense of sustainable growth is a risk.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q004",
+  "area": "Human Resources (HR)",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q004-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A thorough assessment of skill gaps, considering both the depth of analysis and the practicality of potential solutions. The scoring demonstrates a robust evaluation of the HR landscape, highlighting areas needing focused attention. The analysis reveals a good balance of detail and strategic insight.\",\n    \"strengths\": [\n      \"Identifies key skill gaps across multiple functional areas.\",\n      \"Emphasizes the impact of skill gaps on profitability.\",\n      \"Provides actionable recommendations for addressing gaps.\",\n      \"Demonstrates a well-structured and thoughtful approach.\"\n    ],\n    \"weaknesses\": [\n      \"Could benefit from more granular data to quantify the impact of each skill gap.\",\n      \"Lacks specific metrics for measuring the effectiveness of proposed solutions.\",\n      \"The justification could be strengthened with supporting data on cost of inaction.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

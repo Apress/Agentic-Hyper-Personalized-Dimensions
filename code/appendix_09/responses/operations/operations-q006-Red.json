@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q006",
+  "area": "Operations",
+  "dimension": "RED",
+  "prompt_file": "prompts/operations/operations-q006-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.0,\n  \"justification\": {\n    \"summary\": \"Requires more focused investigation of cost and speed implications.\",\n    \"strengths\": [\n      \"Acknowledges the core objective of optimization.\",\n      \"Highlights a potential imbalance in data metrics.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks concrete actionable insights.\",\n      \"Limited analysis of potential trade-offs.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

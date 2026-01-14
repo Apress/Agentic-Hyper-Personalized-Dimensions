@@ -1,0 +1,91 @@
+{
+  "table_id": "A-1",
+  "table_title": "Scoring Rubric Used for Evaluating Responses Across the Six Thinking Dimensions",
+  "scale": {
+    "1": "poor",
+    "2": "fair",
+    "3": "good",
+    "4": "very good",
+    "5": "excellent"
+  },
+  "criteria": [
+    {
+      "id": "t1.2",
+      "name": "Persona fidelity (PF)",
+      "description": "Adherence to the specified role’s content and style constraints."
+    },
+    {
+      "id": "t1.3",
+      "name": "Coverage (COV)",
+      "description": "Completeness relative to the remit (e.g., accuracy, trust, liability, oversight)."
+    },
+    {
+      "id": "t1.4",
+      "name": "Specificity (SPEC)",
+      "description": "Use of precise, concrete details; avoidance of generic statements."
+    },
+    {
+      "id": "t1.5",
+      "name": "Actionability (ACT)",
+      "description": "Presence of clear, feasible next steps where appropriate."
+    },
+    {
+      "id": "t1.6",
+      "name": "Distinctiveness (DIST)",
+      "description": "Clear differentiation from other personas’ outputs."
+    },
+    {
+      "id": "t1.7",
+      "name": "Clarity (CLAR)",
+      "description": "Organization, readability, and length discipline."
+    }
+  ],
+  "source": {
+    "author": "A. F. Vermeulen",
+    "book": "Agentic Hyper-Personalized Dimensions",
+    "publisher": "Apress / Springer Nature",
+    "year": 2026,
+    "doi": "https://doi.org/10.1007/979-8-8688-1877-6"
+  },
+  "output_format_requirement": {
+    "expected_output_structure": {
+      "dimension_name": "White",
+      "criteria_scores": {
+        "PF": "integer 1–5",
+        "COV": "integer 1–5",
+        "SPEC": "integer 1–5",
+        "ACT": "integer 1–5",
+        "DIST": "integer 1–5",
+        "CLAR": "integer 1–5"
+      },
+      "overall_score": "float (mean of six criteria, rounded to 2 decimals)",
+      "justification": {
+        "summary": "Concise paragraph explaining rationale of the scoring",
+        "strengths": "List of observed strong points",
+        "weaknesses": "List of identified limitations"
+      }
+    },
+    "output_example": {
+      "dimension_name": "White",
+      "criteria_scores": {
+        "PF": 4,
+        "COV": 5,
+        "SPEC": 4,
+        "ACT": 4,
+        "DIST": 5,
+        "CLAR": 5
+      },
+      "overall_score": 4.5,
+      "justification": {
+        "summary": "Evidence-led assessment with strong factual balance.",
+        "strengths": [
+          "Clear structure",
+          "Balanced view of accuracy and oversight"
+        ],
+        "weaknesses": [
+          "Missing quantitative benchmarks"
+        ]
+      }
+    }
+  }
+}

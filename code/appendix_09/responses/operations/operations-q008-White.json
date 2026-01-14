@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q008",
+  "area": "Operations",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/operations/operations-q008-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"A comprehensive analysis of inventory policies – turning points, safety stock, and obsolescence – prioritizing verifiable data and meticulous quantification. The approach accurately balances minimum working capital concerns with prudent obsolescence management, considering the inherent limitations of our data availability.\",\n    \"strengths\": [\n      \"Clearly defines key metrics – turning points, safety stock, and obsolescence – as the primary focus.\",\n      \"Considers the fundamental trade-offs between these metrics, recognizing their interdependencies.\",\n      \"Emphasizes the need for quantifying uncertainties within the estimations used.\",\n      \"Utilizes quantitative frameworks for assessment, such as required safety stock levels and turnover rates.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific constraints or limitations on the scenario being evaluated (e.g., industry sector, product lifecycle).\",\n      \"Doesn’t explicitly address the potential impact of fluctuating demand on optimal inventory levels.\",\n      \"No validation of calculated minimum levels.”\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

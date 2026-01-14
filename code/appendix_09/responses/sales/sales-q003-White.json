@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q003",
+  "area": "Sales",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/sales/sales-q003-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"Analysis reveals a significant potential for streamlining sales processes through targeted optimization, supported by established methodologies and quantified metrics.  The recommended approach offers a robust balance of efficiency gains and client satisfaction.  However, further investigation is necessary to accurately assess the implementation's impact and mitigate potential risks.\",\n    \"strengths\": [\n      \"Identifies key areas for improvement – process mapping, automation, and enhanced customer communication.\",\n      \"Proposes a phased implementation strategy minimizing disruption.\",\n      \"Utilizes established frameworks for sales cycle reduction – the Pareto principle and CRM best practices.\",\n      \"Highlights the importance of data-driven decision-making for effectiveness.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics to quantify the expected savings (e.g., revenue, lead conversion rate).\",\n      \"Doesn't address potential challenges related to employee training or system integration.\",\n      \"Assumes a uniform customer base, requiring customization for optimized campaigns.\",\n      \"Doesn't include consideration of long-term impact of process changes.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q004",
+  "area": "Human Resources (HR)",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q004-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"This evaluation assesses the critical skills gaps impacting profitability based on current data and established best practices. While the assessment presents a reasonable overview, incorporating quantifiable metrics and deeper analysis would enhance its effectiveness. The current scoring reflects a strong foundation but lacks precise detail and potential for further optimization.\",\n    \"strengths\": [\n      \"Clearly identifies critical skill gaps.\",\n      \"Focuses on foundational areas impacting human capital.\",\n      \"Demonstrates a proactive approach to understanding operational bottlenecks.\",\n      \"Provides a general framework for prioritization.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific data points for each skill gap – requires more granular information.\",\n      \"The justification section lacks specific examples of how these gaps impact profitability.\",\n      \"Could benefit from incorporating cost-benefit analyses to justify prioritization.\",\n      \"The scoring scale is a bit broad - needs refinement.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

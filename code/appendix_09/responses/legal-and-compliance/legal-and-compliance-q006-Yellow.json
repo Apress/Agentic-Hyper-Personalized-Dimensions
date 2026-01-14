@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q006",
+  "area": "Legal and Compliance",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q006-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"The current assessment indicates a prudent, yet somewhat opaque, situation regarding litigation exposure and insurance coverage. While the information available is sufficient to identify key areas requiring further scrutiny, a more detailed analysis of specific policy terms and potential risk mitigation strategies is warranted. The current information suggests a moderate level of risk, with a clear need for enhanced monitoring and proactive risk management.\",\n    \"strengths\": [\n      \"Clearly identifies potential for both prudent reserve amounts and exposure to future litigation.\",\n      \"Demonstrates an understanding of the importance of comprehensive insurance coverage.\",\n      \"Highlights a need for a deeper investigation into specific policy provisions.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific details regarding the nature or extent of existing litigation risk.\",\n      \"Does not include any quantitative risk assessment or mitigation recommendations.\",\n      \"The justification paragraph could benefit from incorporating specific examples of potential liabilities.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

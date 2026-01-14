@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q002",
+  "area": "Finance",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/finance/finance-q002-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.8,\n  \"justification\": {\n    \"summary\": \"A thorough analysis of potential cash flow improvements without jeopardizing growth, prioritizing verifiable methodologies and conservative risk assessments. The focus is on proactive adjustments leveraging established best practices.\",\n    \"strengths\": [\n      \"Identifies multiple avenues for increased revenue generation with minimal impact on current operations.\",\n      \"Emphasizes careful monitoring and phased implementation to mitigate potential risks.\",\n      \"Considers various efficiency improvements alongside revenue streams.\",\n      \"Utilizes a combination of market research and internal operational assessments.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific quantifiable metrics for impact assessment. Requires detailed financial modeling for precise ROI projections.\",\n      \"Doesn't delve into specific industry trends or competitive landscape considerations. \"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

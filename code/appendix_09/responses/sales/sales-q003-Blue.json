@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q003",
+  "area": "Sales",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/sales/sales-q003-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Analyzing current sales cycle, prioritizing strategies to reduce time spent, focusing on quantifiable improvements.\",\n    \"strengths\": [\n      \"Acknowledges the importance of reducing sales cycle length, suggesting a direct, measurable objective.\",\n      \"Highlights the need for improvement, implying current practices may be inefficient.\",\n      \"Emphasizes the concept of 'quality' as a key metric, suggesting a focus on value delivered.\",\n      \"Clearly identifies the goal of shortening the sales cycle as a primary objective.\",\n      \"Uses precise language regarding 'reducing time spent' rather than vague statements.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics for quantifying 'quality'.  'Quality' needs to be operationalized.\",\n      \"Doesn't delve into potential causes of the current cycle length, suggesting a need for diagnostic steps.\",\n      \"Could benefit from more detailed recommendations for achieving the specific reduction in cycle length, beyond simply 'shortening'.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

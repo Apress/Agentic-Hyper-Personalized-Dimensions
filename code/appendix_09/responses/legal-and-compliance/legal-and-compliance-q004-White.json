@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q004",
+  "area": "Legal and Compliance",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q004-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"Analysis indicates a robust framework for intellectual property protection and monetization, leveraging established methodologies and prioritizing verifiable data. The assessment considers multiple facets, including legal frameworks, market trends, and practical strategies.\",\n    \"strengths\": [\n      \"Comprehensive overview of key IP rights (copyright, patents, trademarks, trade secrets)\",\n      \"Recognition of evolving monetization strategies (royalties, licensing, digital distribution)\",\n      \"Emphasis on proactive infringement monitoring and enforcement\",\n      \"Detailed discussion of IP valuation and asset management best practices\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific quantitative projections for revenue generation across different IP types.\",\n      \"Limited exploration of decentralized IP models (e.g., blockchain-based rights management).\",\n      \"Insufficient consideration of legal jurisdictional complexities across global markets.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

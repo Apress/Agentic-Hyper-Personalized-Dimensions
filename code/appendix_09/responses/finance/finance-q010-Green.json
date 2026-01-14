@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q010",
+  "area": "Finance",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/finance/finance-q010-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"The proposed co-ownership model offers considerable potential for enhanced profit alignment through collaborative resource allocation. Initial assessment suggests a robust framework with strong conceptual foundations, though further detail is required to solidify practical implementation and mitigate potential risk-based uncertainties. The novelty of this approach, combining functional expertise with strategic vision, distinguishes it significantly from existing models.\",\n    \"strengths\": [\n      \"Proposes a dynamic, adaptive profit distribution system leveraging diverse functional teams.\",\n      \"Embraces a phased implementation approach for gradual refinement.\",\n      \"Recognizes the crucial role of ongoing monitoring and evaluation for optimal outcomes.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of concrete financial modeling to quantify benefit gains.\",\n      \"Limited exploration of potential scalability challenges with wider adoption.\",\n      \"Missing consideration of potential competitive pressures within the financial ecosystem.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q009",
+  "area": "Operations",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/operations/operations-q009-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"Analysis indicates a strong focus on detailed cost considerations and a robust evaluation of supplier performance metrics, supported by quantifiable data and established methodologies. However, the assessment lacks specific quantitative benchmarks to objectively measure improvement across defined metrics.\",\n    \"strengths\": [\n      \"Prioritization of detailed cost analysis – a core directive.\",\n      \"Emphasis on quantifiable performance indicators – essential for assessment.\",\n      \"Structured approach incorporating multiple criteria – appropriate for complex evaluation.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of quantifiable targets for improvement – requires specific KPIs.\",\n      \"Limited discussion of risk mitigation – potential for overlooked vulnerabilities.\",\n      \"No established methodology for benchmarking – requires further refinement.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

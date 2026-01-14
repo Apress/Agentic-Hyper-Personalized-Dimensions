@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q002",
+  "area": "Marketing and Communications",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q002-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Analysis of marketing campaign return on investment suggests a strong potential for high ROMI. The assessment prioritizes data-driven insights and demonstrates a thorough evaluation of campaign effectiveness. However, further quantification of ROI across all campaigns would enhance the assessment.\",\n    \"strengths\": [\n      \"Comprehensive evaluation of multiple campaign types considered.\",\n      \"Emphasis on data-driven analysis to identify key drivers of ROMI.\",\n      \"Acknowledges the need for quantification to solidify findings.\"\n    ],\n    \"weaknesses\": [\n      \"Limited specific metrics provided for each campaign.\",\n      \"Lack of detailed cost-benefit analysis for the identified campaigns.\",\n      \"No benchmark data for historical ROI comparison.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

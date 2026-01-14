@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q001",
+  "area": "Human Resources (HR)",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q001-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"The alignment of workforce performance with profit goals is a complex endeavor requiring a proactive and data-driven approach. This assessment highlights the importance of establishing clear metrics, incentivizing desired behaviors, and consistently monitoring progress against these goals. However, more detailed analysis of specific metrics and potential roadblocks would strengthen the assessment.\",\n    \"strengths\": [\n      \"Clearly identifies the core challenge – the need to translate workforce goals into tangible financial outcomes.\",\n      \"Recognizes the importance of monitoring and adjusting strategies based on performance data.\",\n      \"The focus on aligning incentives is crucial for driving desired behaviors.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of performance metrics currently being used. Further detail on existing KPIs would improve the assessment’s practicality.\",\n      \"Doesn't explicitly address potential challenges in accurately measuring the impact of workforce performance on profit.\",\n      \"Doesn’t integrate a robust framework for tracking progress towards profitability targets.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

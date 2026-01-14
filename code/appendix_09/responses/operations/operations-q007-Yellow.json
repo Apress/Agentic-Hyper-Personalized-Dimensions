@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q007",
+  "area": "Operations",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/operations/operations-q007-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.3,\n  \"justification\": {\n    \"summary\": \"Optimized S&OP processes require robust capacity planning. Current methodologies primarily rely on historical data and qualitative assessments, leading to potential stockout and overproduction risks. While these approaches offer a foundational basis, increased data granularity, predictive modeling, and automated optimization are crucial for enhanced effectiveness. Focusing on quantified metrics – specifically lead times, inventory turnover, and forecast accuracy – will yield the most impactful improvements.\",\n    \"strengths\": [\n      \"Clearly identifies the key areas of concern: stockouts and overproduction.\",\n      \"Acknowledges the limitations of current methods.\",\n      \"Emphasizes the need for data-driven improvements.\",\n      \"Highlights potential for significant yield gains through advanced techniques.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific recommendations for implementation beyond general principles. Quantifiable targets are missing.\",\n      \"Doesn’t address the specific technological challenges involved in automation.\",\n      \"Doesn't delve into the potential impact of different forecasting models.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

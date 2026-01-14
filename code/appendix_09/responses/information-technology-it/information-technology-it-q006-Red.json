@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q006",
+  "area": "Information Technology (IT)",
+  "dimension": "RED",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q006-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.0,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests potential for considerable data gaps requiring significant investigation. Core systems build versus buy costs require careful prioritization and risk analysis, impacting long-term value.\",\n    \"strengths\": [\n      \"Acknowledges the complexity of the question.\",\n      \"Highlights the need for detailed financial modeling.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific estimates for each cost factor.\",\n      \"Doesn't offer guidance for prioritizing systems.\",\n      \"No mention of potential lifecycle considerations.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

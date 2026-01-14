@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q009",
+  "area": "Information Technology (IT)",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q009-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"This assessment considers the critical importance of reliability targets for revenue preservation and disruption reduction. The scoring provides a strong framework for prioritizing and evaluating these key metrics – a balanced approach to technical and operational controls is crucial. Stakeholders should leverage this framework to design effective, practical, and impactful solutions.\",\n    \"strengths\": [\n      \"Recognizes the dual importance of uptime and MTTR, a fundamental aspect of system stability.\",\n      \"Emphasizes proactive measures for minimizing disruption, aligning with business continuity strategies.\",\n      \"Highlights the need for quantifiable metrics to guide investment and optimization.\",\n      \"The framework provides a structured approach to risk assessment and mitigation.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific quantifiable targets for uptime and MTTR. Requires further refinement for practical implementation.\",\n      \"Doesn't address the specific types of revenue impact each target has, needing consideration of revenue segment.\",\n      \"Doesn't delve into the cost implications of different reliability targets – a more detailed cost analysis would be beneficial.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

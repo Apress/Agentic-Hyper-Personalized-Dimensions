@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q001",
+  "area": "Sales",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/sales/sales-q001-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis suggests potential risks and requires cautious implementation. Current approaches lack quantifiable metrics and detailed risk mitigation strategies.\",\n    \"strengths\": [\n      \"Acknowledges the importance of conversion rates.\",\n      \"Recognizes the need for a structured approach to improvement.\"\n    ],\n    \"weaknesses\": [\n      \"Limited exploration of specific conversion rate optimization techniques.\",\n      \"Insufficient detail regarding the current lead funnel and customer journey.\",\n      \"Lack of data-driven insights on current conversion thresholds.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

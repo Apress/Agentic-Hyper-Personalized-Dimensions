@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q001",
+  "area": "Legal and Compliance",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q001-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"A robust analysis considering multiple facets of risk mitigation, prioritizing proactive compliance with applicable regulations and legal precedents. The assessment acknowledges the complexity of legal risk, emphasizing a layered approach to minimizing potential financial losses.\",\n    \"strengths\": [\n      \"Identifies key legal areas requiring meticulous scrutiny (e.g., data privacy, intellectual property, anti-trust).\",\n      \"Emphasizes the iterative nature of compliance – defining clear thresholds and monitoring processes.\",\n      \"Highlights the importance of establishing robust internal controls and audit trails.\",\n      \"Recognizes the need for ongoing legal updates and adaptation to emerging regulations.\"\n    ],\n    \"weaknesses\": [\n      \"Could benefit from a more granular breakdown of specific regulatory risks across different sectors. Current scope lacks focus.\",\n      \"Lacks concrete examples of preventative measures beyond general compliance principles.\",\n      \"Doesn't explicitly address the financial impact of potential breaches, requiring a cost-benefit analysis integration.\",\n      \"Doesn’t specify the level of risk tolerance the organization is operating within.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

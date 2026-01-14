@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q002",
+  "area": "Information Technology (IT)",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q002-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Analysis of leading IT systems based on publicly available cost and return data. Prioritization of systems with the highest total cost and lowest ROI is a key focus.\",\n    \"strengths\": [\n      \"Thorough examination of multiple systems including cloud-based and on-premise solutions.\",\n      \"Focus on quantifying total cost of ownership, considering licensing, maintenance, and operational expenses.\",\n      \"Identification of systems with the lowest ROI based on projected lifespan and usage.\",\n      \"Incorporation of data from various sources like Gartner, Forrester, and industry reports.\"\n    ],\n    \"weaknesses\": [\n      \"Limited scope – primarily focuses on publicly available data and does not delve into detailed financial modeling or risk analysis.\",\n      \"Lack of granular cost breakdowns across different phases of a system’s lifecycle (e.g., initial investment, operational costs, disposal).\",\n      \"No specific weighting assigned to different cost metrics (e.g., lifespan, scalability, maintenance cost).\",\n      \"No consideration of potential long-term risks or obsolescence.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

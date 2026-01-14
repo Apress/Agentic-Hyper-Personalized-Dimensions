@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q005",
+  "area": "Marketing and Communications",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q005-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a strong foundation for optimizing marketing analytics and targeting automation, prioritizing the core elements of data-driven strategy. The identified strengths demonstrate a thorough consideration of key factors, while some areas require further exploration to fully realize the potential for innovation. The alignment with the user’s request for reduction in waste underscores the core objective.\",\n    \"strengths\": [\n      \"Recognizes the critical role of automation in reducing waste, a central focus.\",\n      \"Emphasizes the need for robust analytics to effectively identify and allocate resources.\",\n      \"Acknowledges the potential for radical optimization through automated techniques.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific quantifiable metrics for 'waste reduction' – requires definition of key performance indicators (KPIs).\",\n      \"Doesn't explicitly address the challenges associated with automated analytics implementation (e.g., algorithm bias, data silos).\",\n      \"Limited exploration of creative or novel targeting methods beyond standard segmentation. Requires further creative thinking.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

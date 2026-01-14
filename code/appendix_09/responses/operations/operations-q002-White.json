@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q002",
+  "area": "Operations",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/operations/operations-q002-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"Analysis of workflow automation opportunities reveals a robust set of processes capable of significant optimization. The assessment of accuracy, traceability, and efficiency provides a strong foundation for implementation.\",\n    \"strengths\": [\n      \"Identification of multiple workflows amenable to automation – including data validation, report generation, and process monitoring.\",\n      \"Prioritization of workflows based on potential return on investment (ROI) – specifically focusing on processes with high data volume and significant operational costs.\",\n      \"Detailed assessment of automation potential across diverse operational areas, from research to production.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific metrics for quantifying automated success – requiring a framework for measuring performance improvements.\",\n      \"Limited consideration of potential resistance to automation among personnel – necessitating proactive change management strategies.\",\n      \"Insufficient detail on the specific technology or toolsets best suited for each identified workflow.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

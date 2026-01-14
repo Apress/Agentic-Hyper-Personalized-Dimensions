@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q010",
+  "area": "Human Resources (HR)",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q010-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"HR analytics can leverage data to proactively identify and mitigate performance and cost risks through predictive modeling and targeted interventions.  The assessment of data quality, predictive capability, and the potential for actionable insights is strong.  The focus on proactive risk management aligns with the White dimension's objective of safeguarding human capital.\",\n    \"strengths\": [\n      \"Leverages statistical modeling to identify correlations between HR metrics and potential issues.\",\n      \"Utilizes machine learning to detect anomalies and trends that might indicate risk.\",\n      \"Employs data visualization for clear and accessible presentation of results.\",\n      \"Offers customizable dashboards for different stakeholders with varying levels of analysis.\"\n    ],\n    \"weaknesses\": [\n      \"Reliance on historical data introduces potential for bias; requires careful consideration of historical trends.\",\n      \"Model accuracy is contingent on data quality; requires robust data validation and cleansing processes.\",\n      \"‘Preventing’ performance/cost issues is a high-level goal; requires a granular, actionable strategy within HR.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

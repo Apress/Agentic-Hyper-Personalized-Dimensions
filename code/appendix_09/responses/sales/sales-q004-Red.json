@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q004",
+  "area": "Sales",
+  "dimension": "RED",
+  "prompt_file": "prompts/sales/sales-q004-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests potential for strong revenue growth through targeted upsells, but requires further investigation.\",\n    \"strengths\": [\n      \"Identifies key areas for opportunity\",\n      \"Highlights the need for deeper market analysis\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific actionable insights\",\n      \"Requires more data-driven insights\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q006",
+  "area": "Human Resources (HR)",
+  "dimension": "RED",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q006-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a need for deeper investigation into the effectiveness of reward structures in driving profitability.\",\n    \"strengths\": [\n      \"Acknowledges the importance of profit contribution.\",\n      \"Highlights the need for more granular data analysis.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of alternative reward structures.\",\n      \"Insufficient detail regarding the 'incentives' themselves.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

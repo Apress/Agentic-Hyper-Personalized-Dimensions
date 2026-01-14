@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q006",
+  "area": "Information Technology (IT)",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q006-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"The Green dimension’s analysis of the core systems’ total cost of ownership – build vs. buy, and lifecycle – necessitates careful consideration of evolving technological advancements and projected maintenance costs. Initial assessment suggests a significant weighting towards the build phase, prioritizing initial investment and established infrastructure, while lifecycle considerations are moderate, with potential for optimization through automated maintenance and upgrades.\",\n    \"strengths\": [\n      \"Acknowledges the criticality of upfront investment in core systems.\",\n      \"Identifies a potential for lifecycle cost optimization through proactive measures.\",\n      \"Provides a reasonable starting point for cost evaluation.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks detailed breakdown of build vs. buy costs – requires specific figures.\",\n      \"Lifecycle cost analysis is rudimentary; considers only maintenance and upgrades, neglects potential obsolescence.\",\n      \"Doesn't incorporate potential for increased efficiency through phased deployment or cloud-based solutions.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

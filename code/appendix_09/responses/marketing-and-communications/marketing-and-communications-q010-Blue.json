@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q010",
+  "area": "Marketing and Communications",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q010-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"Alignment of marketing KPIs with profit outcomes requires a shift from vanity metrics – which primarily focus on engagement or impressions – to measurable, strategic results. This necessitates a more holistic and data-driven approach. We must demonstrate a robust link between effort and return, moving beyond superficial indicators to tangible economic benefits. The current focus on emotional engagement risks undermining true profitability.\",\n    \"strengths\": [\n      \"Clearly identified the need for a paradigm shift.\",\n      \"Strong emphasis on ROI as a key driver.\",\n      \"Recognizes the risk of prioritizing vanity metrics.\",\n      \"Suggests a move towards more strategic and objective KPIs.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of profitable marketing activities to guide the transition.\",\n      \"Doesn’t quantify the potential return on investment for different KPIs.\",\n      \"Doesn't address potential challenges in measuring profit directly from marketing activities.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

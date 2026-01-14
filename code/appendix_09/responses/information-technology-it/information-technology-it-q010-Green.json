@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q010",
+  "area": "Information Technology (IT)",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q010-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A thorough analysis of vendor relationships necessitates careful consideration of mutually beneficial arrangements.  The key is to proactively seek and establish clauses that offer significant value beyond simple transactional price reductions, fostering a long-term, collaborative partnership.\",\n    \"strengths\": [\n      \"Recognizes the importance of relationship building – a crucial element in mitigating lock-in.\",\n      \"Emphasizes value-added clauses beyond price – demonstrating foresight and strategic intent.\",\n      \"Highlights the need for ongoing evaluation and adaptation to market dynamics.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of ‘value-added’ clauses. The prompt requires deeper exploration of potential strategies.\",\n      \"Doesn’t explicitly address data security or intellectual property rights – vital considerations for vendor governance.\",\n      \"The 'distinctiveness' score is relatively low, suggesting a potential need for more creative thinking.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

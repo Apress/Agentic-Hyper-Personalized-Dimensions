@@ -1,0 +1,8 @@
+{
+  "question_id": "research-and-development-r-d-innovation-q002",
+  "area": "Research and Development (R&D) / Innovation",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/research-and-development-r-d-innovation/research-and-development-r-d-innovation-q002-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"This evaluation suggests a strong foundation for impactful innovation, prioritizing strategic return over immediate gratification. While demonstrating a robust and feasible approach, further analysis is needed to quantify potential ROI with greater precision.\",\n    \"strengths\": [\n      \"Focus on incremental improvements – likely resulting in a substantial ROI.\",\n      \"Identification of key areas for expansion through targeted investment.\",\n      \"Clear articulation of the potential benefits of the proposed innovation.\"\n    ],\n    \"weaknesses\": [\n      \"Limited quantifiable metrics – ROI calculation necessitates data.\",\n      \"Lack of specific industry analysis – requires deeper understanding of market context.\",\n      \"No indication of risk mitigation – requires careful consideration of potential challenges.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

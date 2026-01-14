@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q002",
+  "area": "Information Technology (IT)",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q002-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.6,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a pragmatic, but potentially conservative approach to cost and ROI, prioritizing stability over aggressive optimization. Limited data available for robust assessment.\",\n    \"strengths\": [\n      \"Focus on established systems – reduces immediate risk of disruptive innovation.\",\n      \"Emphasis on long-term stability is crucial for 'Black'’s operational model.\",\n      \"Identifies a potential bottleneck in resource allocation across numerous systems.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of detailed system specifications hinders accurate cost estimations. Requires detailed data to improve estimation.\",\n      \"Limited consideration of scalability; relying solely on established systems may impede future growth.\",\n      \"Discounting potential future cost reductions through incremental upgrades; risk assessment is insufficient.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

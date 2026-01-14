@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q006",
+  "area": "Sales",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/sales/sales-q006-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A rigorous analysis of pipeline velocity bottlenecks, prioritizing a multi-faceted approach to identifying and resolving constraints. The assessment balances objective data with creative exploration of potential solutions. We’ve prioritized a deep dive into the root causes, suggesting several targeted interventions.\",\n    \"strengths\": [\n      \"Clearly defines 'pipeline velocity bottlenecks' – a crucial operational focus.\",\n      \"Emphasizes a holistic examination – considering various stages and contributors.\",\n      \"Proposes a combination of data analysis and disruptive thinking to create novel solutions.\",\n      \"Acknowledges the iterative nature of issue resolution – a critical point for long-term improvement.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific data metrics or key performance indicators (KPIs) currently defined for ‘velocity’ – requiring preliminary definition.\",\n      \"The proposed 'disruptive thinking' aspect is somewhat vague – requiring further elaboration on what ‘disruptive’ means within this context.\",\n      \"Could benefit from quantification of ‘success’ for proposed interventions – suggesting targeted metrics would strengthen the analysis.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

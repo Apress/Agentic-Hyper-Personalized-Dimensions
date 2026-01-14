@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q008",
+  "area": "Finance",
+  "dimension": "RED",
+  "prompt_file": "prompts/finance/finance-q008-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Initial assessment indicating a moderate risk/reward profile, requiring further investigation.\",\n    \"strengths\": [\n      \"Recognizes potential for moderate returns with inherent risks.\",\n      \"Highlights the need for detailed risk assessment.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics to quantify the risk/reward ratio.\",\n      \"Requires deeper analysis of potential scenarios.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q009",
+  "area": "Sales",
+  "dimension": "RED",
+  "prompt_file": "prompts/sales/sales-q009-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.0,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a moderate level of understanding required for improved forecasting.\",\n    \"strengths\": [\n      \"Acknowledges the importance of forecasting\",\n      \"Highlights potential areas for improvement\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific recommendations for enhancement\",\n      \"Limited data-driven insights\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

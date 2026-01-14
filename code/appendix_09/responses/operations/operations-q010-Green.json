@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q010",
+  "area": "Operations",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/operations/operations-q010-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A thorough examination of how safety and compliance improvements directly impact downtime and hidden costs through a multi-faceted analysis, emphasizing proactive risk mitigation strategies.  The assessment provides a strong foundation for understanding the potential economic benefits of these initiatives.\",\n    \"strengths\": [\n      \"Clearly articulates the core relationship between improvements and reduced costs; provides a logical chain of reasoning.\",\n      \"Recognizes the proactive nature of safety improvements as a key driver of cost savings; highlights the long-term value.\",\n      \"Emphasizes a holistic view incorporating both immediate cost reductions and reduced risk, creating a compelling argument for investment.\"\n    ],\n    \"weaknesses\": [\n      \"Could benefit from quantifying the specific cost savings achieved through each improvement; lacks concrete examples of 'hidden costs'.\",\n      \"The assessment could be strengthened by addressing the potential for increased operational complexity associated with enhanced safety protocols.  Minor point for further exploration.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

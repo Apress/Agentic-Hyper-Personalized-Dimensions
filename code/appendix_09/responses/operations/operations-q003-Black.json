@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q003",
+  "area": "Operations",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/operations/operations-q003-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis suggests potential for optimization through process improvements, but requires further investigation into quantifiable impact and implementation feasibility.\",\n    \"strengths\": [\n      \"Explicitly focuses on efficiency gains – a critical requirement.\",\n      \"Acknowledges the need for data-driven assessment.\"\n    ],\n    \"weaknesses\": [\n      \"Limited scope – primarily reactive, lacks proactive suggestions for improvement.\",\n      \"Scores are relatively low across multiple criteria – needs more detailed analysis to address the observed weaknesses.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q007",
+  "area": "Information Technology (IT)",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q007-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"The proposed strategy presents a reasonable foundation, yet requires significant refinement to address inherent risks and potential for unintended consequences. Focus is somewhat uneven across defined elements of data governance and privacy.\",\n    \"strengths\": [\n      \"Recognition of the importance of data protection as a foundational requirement.\",\n      \"Acknowledgement of potential financial penalties as a significant risk.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of a detailed risk assessment framework – insufficient identification of specific threats.\",\n      \"Insufficient consideration of evolving privacy regulations (e.g., GDPR, CCPA).\",\n      \"Missing a robust monitoring and audit trail plan - critical for proactive compliance.\",\n      \"Insufficient definition of 'strengthening' – vague action plan.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

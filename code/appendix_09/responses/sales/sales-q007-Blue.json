@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q007",
+  "area": "Sales",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/sales/sales-q007-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"This analysis prioritizes maximizing margin while meticulously considering the impact on win rates. The assessment focuses on a multi-faceted approach – strategic pricing adjustments, dynamic discounting strategies, and a thorough evaluation of potential risk/reward trade-offs. The weighting of each criterion reflects a careful balance of analytical rigor and practical consideration of business objectives. The scoring reflects a robust approach to evaluating potential solutions.\",\n    \"strengths\": [\n      \"Comprehensive consideration of multiple pricing and discounting methods.\",\n      \"Emphasis on risk mitigation through strategic discounting.\",\n      \"Well-defined objective of maximizing margin without jeopardizing win rates.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific quantifiable metrics for each criterion (e.g., expected margin increase, win rate impact).\",\n      \"Limited consideration of product lifecycle and seasonal demand.\",\n      \"No explicit mention of sensitivity testing or A/B testing plans.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

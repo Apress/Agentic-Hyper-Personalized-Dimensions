@@ -1,0 +1,7 @@
+{
+  "question_id": "q5",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/q5-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"Mars colonization presents a complex challenge, demanding substantial investment and leveraging advanced technologies. While potential benefits are significant, prioritizing risk mitigation and scalability over immediate, extravagant expansion is prudent. Initial investment is critical, but long-term sustainability relies on a multifaceted approach that avoids over-reliance on a single resource.\",\n    \"strengths\": [\n      \"Clearly outlines the core arguments against excessive, premature colonization.\",\n      \"Recognizes the potential for innovation, particularly in resource extraction and habitat manipulation, is central to long-term survival.\",\n      \"Highlights the need for a phased approach emphasizing diversification and redundancy.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific quantified projections for long-term sustainability beyond initial investment. Cost estimates are also vague.\",\n      \"Doesn't fully address the philosophical implications of complete planetary isolation beyond resource acquisition.\",\n      \"Doesn't explicitly suggest alternative survival strategies beyond Mars colonization.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,7 @@
+{
+  "question_id": "q6",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/q6-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A thorough and nuanced analysis of the complexities of UBI implementation, considering both potential benefits and significant challenges, with a focus on robust financial modeling and long-term societal impact. The analysis provides a well-rounded perspective.\",\n    \"strengths\": [\n      \"Comprehensive consideration of economic, social, and political ramifications.\",\n      \"Explicitly acknowledges the risks of dependency and proposes nuanced mitigation strategies.\",\n      \"Offers a flexible, multi-faceted funding model approach – going beyond simple taxation.\",\n      \"Utilizes established economic principles (e.g., labor market theory) to inform the analysis.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific numerical projections for future financial implications. Requires detailed modeling.\",\n      \"Doesn't fully address the ethical considerations surrounding resource allocation and social justice.\",\n      \"Could benefit from incorporating a deeper psychological analysis of the impact on workforce engagement.\",\n      \"Doesn't sufficiently explore alternative governance models beyond traditional taxation.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

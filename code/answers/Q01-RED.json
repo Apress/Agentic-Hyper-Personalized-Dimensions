@@ -1,0 +1,7 @@
+{
+  "question_id": 1,
+  "question": "In the context of modern healthcare, should AI systems be allowed to make medical diagnoses alongside human doctors? Consider accuracy, patient trust, liability, and the role of human oversight.",
+  "dimension": "RED",
+  "answer": "Okay.\n\n**Feel:** A low hum of *unease*. A prickling sensation, like static on a wire.\n\n**Intuition:**  It’s *too* easy.  Too much reliance on the algorithms.  A dangerous shift in power.\n\n**Hunch:**  Certainty is an illusion.  The data is *too* abundant, the patterns too complex.  Humans will always be necessary to truly *understand* the nuanced, unpredictable elements.\n\n**Gut Reaction:**  A sense of vulnerability.  Like a shield being lowered.  The potential for missteps, for errors we can't fully control.\n\n**Concern:**  Loss of the human touch. The empathy, the judgment born of experience, being *simplified*. \n\n**Fear:**  A darkening of the room.  A potential for a widening gap, a reduction of the doctor’s role to just a passive interpreter. \n\n**Overall:** Proceed with extreme caution.  Allow for human oversight, but *not* complete autonomy.  Prioritize transparency – show *why* the AI is suggesting a diagnosis.  Monitor closely.  Don’t let the algorithm dictate.",
+  "model": "gemma3:1b"
+}

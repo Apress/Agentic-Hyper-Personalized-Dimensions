@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q010",
+  "area": "Information Technology (IT)",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q010-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"This evaluation prioritizes rigorous data analysis and strategic negotiation, demonstrating a robust approach to vendor management. The assessment considers multiple facets of the interaction, from data acquisition to long-term relationship building. The focus on quantifiable metrics, while acknowledged, suggests a commitment to achieving measurable results.\",\n    \"strengths\": [\n      \"Comprehensive framework for evaluating vendor contracts.\",\n      \"Emphasis on data-driven negotiation strategies.\",\n      \"Recognition of long-term relationship value.\",\n      \"Clear delineation of proactive measures against lock-in.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific metrics for quantifying 'better commercial terms' – requiring a baseline established for assessment.\",\n      \"Limited discussion of potential resistance to negotiation.\",\n      \"No assessment of risk mitigation strategies beyond initial contract drafting.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

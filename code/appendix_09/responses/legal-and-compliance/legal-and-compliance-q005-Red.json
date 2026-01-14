@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q005",
+  "area": "Legal and Compliance",
+  "dimension": "RED",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q005-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a high probability of actionable insights regarding liability reduction and profitability through strategic negotiation. The focus on tangible outcomes suggests a significant risk-reward calculation.\",\n    \"strengths\": [\n      \"Strongly emphasizes the potential for substantial financial gains.\",\n      \"Acknowledges the importance of mitigating risk through proactive negotiation strategies.\",\n      \"Indicates a focus on outcomes–crucial for profitability.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of negotiation tactics or quantifiable metrics.\",\n      \"Doesn’t fully address the underlying drivers of liabilities or profitability.\",\n      \"Needs a deeper dive into the nature of the potential risks.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

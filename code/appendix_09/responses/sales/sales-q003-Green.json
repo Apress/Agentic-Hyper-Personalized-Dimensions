@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q003",
+  "area": "Sales",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/sales/sales-q003-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"A multi-faceted approach to shortening the sales cycle, prioritizing strategic improvements over quick fixes. Requires careful prioritization and implementation to avoid unintended consequences.\",\n    \"strengths\": [\n      \"Identifies key bottlenecks through a 'quick wins' framework.\",\n      \"Emphasizes data-driven optimization – focusing on metrics rather than simply speed.\",\n      \"Suggests leveraging technology to enhance efficiency.\",\n      \"Highlights the importance of continuous monitoring and adaptation.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of 'quick wins'.\",\n      \"Doesn't address potential risk mitigation strategies beyond optimization.\",\n      \"Doesn’t incorporate customer experience considerations.\",\n      \"Doesn’t propose a timeline for implementation.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

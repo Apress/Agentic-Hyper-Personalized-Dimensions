@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q006",
+  "area": "Human Resources (HR)",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q006-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.6,\n  \"justification\": {\n    \"summary\": \"Analysis reveals a moderate balance of assessment of key criteria, with some areas requiring more detailed scrutiny. Focus is primarily on the practical implications of reward structures.\",\n    \"strengths\": [\n      \"Acknowledges importance of profitability.\",\n      \"Identifies need for deeper understanding of incentive design.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of reward structures to analyze.\",\n      \"Limited coverage of potential risks associated with profit-driven incentives.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

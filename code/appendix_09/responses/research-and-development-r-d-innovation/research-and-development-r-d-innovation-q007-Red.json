@@ -1,0 +1,8 @@
+{
+  "question_id": "research-and-development-r-d-innovation-q007",
+  "area": "Research and Development (R&D) / Innovation",
+  "dimension": "RED",
+  "prompt_file": "prompts/research-and-development-r-d-innovation/research-and-development-r-d-innovation-q007-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.0,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a reasonable level of inquiry, but requires further investigation into concrete data points. Focus on the core of the question, particularly regarding financial outcome quantification.\",\n    \"strengths\": [\n      \"Recognizes the importance of profit as a metric.\",\n      \"Highlights a need for a more precise understanding of connection.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks detailed information on methodologies employed.\",\n      \"Limited context regarding 'measurable profit outcomes'.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

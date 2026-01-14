@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q001",
+  "area": "Marketing and Communications",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q001-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis reveals a moderate level of detailed information, with potential for a less robust assessment of channel effectiveness based on available data.\",\n    \"strengths\": [\n      \"Acknowledges the importance of acquisition cost analysis.\",\n      \"Mentions the need for more specific data to support conclusions.\"\n    ],\n    \"weaknesses\": [\n      \"Limited data provided to support claims; requires more granular analysis.\",\n      \"Assessment lacks actionable recommendations; requires more detail on channel optimization.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

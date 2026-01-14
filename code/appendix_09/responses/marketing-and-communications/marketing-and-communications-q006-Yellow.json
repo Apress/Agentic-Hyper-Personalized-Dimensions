@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q006",
+  "area": "Marketing and Communications",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q006-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 4.0,\n  \"justification\": {\n    \"summary\": \"Analysis indicates a solid understanding of customer churn reduction strategies, though a deeper dive into precise cost data would enhance the evaluation.\",\n    \"strengths\": [\n      \"Identifies key retention tactics – proactive engagement, personalized offers, loyalty programs – as crucial.\",\n      \"Recognizes the high cost of churn as a significant concern.\",\n      \"Understands the potential for ROI through targeted retention efforts.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific cost estimates for different retention campaign approaches. The current assessment requires a benchmark to gauge efficacy.\",\n      \"Doesn't differentiate between 'cost' and 'value' – focusing solely on monetary expenditure neglects the impact on customer lifetime value.\",\n      \"Limited consideration of long-term churn prevention strategies beyond immediate offers.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

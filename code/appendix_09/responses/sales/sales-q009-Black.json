@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q009",
+  "area": "Sales",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/sales/sales-q009-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 5,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.8,\n  \"justification\": {\n    \"summary\": \"Analysis reveals a significant need for refinement, with considerable risk of miscalculation and potential for systemic errors. Current approach lacks robust data validation and proactive mitigation strategies.\",\n    \"strengths\": [\n      \"Recognizes the critical importance of accurate forecasting.\",\n      \"Highlights a lack of detailed risk assessment protocols.\"\n    ],\n    \"weaknesses\": [\n      \"Insufficient data integration to support robust modeling.\",\n      \"Limited exploration of potential forecasting errors.\",\n      \"No specific recommendations for enhanced data quality or modeling techniques.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

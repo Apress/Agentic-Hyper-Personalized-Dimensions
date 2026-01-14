@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q006",
+  "area": "Finance",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/finance/finance-q006-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A thorough assessment of collection efficiency and debtor days, leveraging data-driven insights and best practices to identify significant areas for improvement. The evaluation prioritizes tangible benefits and actionable recommendations.\",\n    \"strengths\": [\n      \"Identifies key metrics (debtor days) and proposes a targeted approach (data analysis).\",\n      \"Emphasizes the strategic importance of optimizing collection processes.\",\n      \"Suggests specific actions – enhanced monitoring, automated reminders, and streamlined accounts receivable procedures – to enhance efficiency.\",\n      \"Recognizes the need for a phased implementation with measurable success criteria.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific quantitative targets for debtor days reduction. Requires input on current baseline metrics for meaningful comparison.\",\n      \"Could benefit from incorporating a detailed cost-benefit analysis of proposed measures.  Focus on ROI is vital.\",\n      \"Doesn’t explicitly address the underlying causes of debtor days (e.g., slow payment cycles, ineffective collection strategies) beyond simply improving efficiency.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

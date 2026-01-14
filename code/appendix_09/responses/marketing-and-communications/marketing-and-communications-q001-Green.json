@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q001",
+  "area": "Marketing and Communications",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q001-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a moderately effective channel mix. While all channels demonstrate respectable performance, certain channels – specifically, channel A and channel B – are exhibiting comparatively lower CAC ratios compared to the top-performing channels. This warrants further investigation into the reasons behind these differences, particularly concerning optimization strategies for these underperforming segments.\",\n    \"strengths\": [\n      \"Comprehensive evaluation across multiple channels.\",\n      \"Well-structured scoring based on established metrics.\",\n      \"Detailed analysis of key channel performance.\",\n      \"Acknowledges the potential for improvement within the current setup.\"\n    ],\n    \"weaknesses\": [\n      \"Limited data on specific channel performance metrics (e.g., cost per acquisition).\",\n      \"No quantitative data on CAC ratios.\",\n      \"Lack of granular segmentation of channel performance.\",\n      \"Requires deeper investigation of underperforming channels.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

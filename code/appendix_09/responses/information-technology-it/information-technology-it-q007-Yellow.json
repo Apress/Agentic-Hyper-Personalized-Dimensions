@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q007",
+  "area": "Information Technology (IT)",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q007-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 4.1,\n  \"justification\": {\n    \"summary\": \"Strengths in outlining key data governance principles and prioritizing privacy enhancements. However, the assessment lacks specific recommendations for quantifying the impact of the proposed improvements, emphasizing a more detailed analysis is needed to strengthen the value proposition significantly.\",\n    \"strengths\": [\n      \"Recognizes the critical importance of data governance for minimizing fines and rework.\",\n      \"Highlights the need for proactive privacy measures to mitigate risk.\",\n      \"Emphasizes the importance of quantifiable metrics for measuring success.\"\n    ],\n    \"weaknesses\": [\n      \"Limited focus on specific implementation strategies or technological solutions.\",\n      \"Lack of concrete examples of how improvements will demonstrably reduce risks or rework.\",\n      \"Missing assessment of existing data governance frameworks and compliance requirements.\",\n      \"Insufficient detail about potential cost-benefit analysis.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

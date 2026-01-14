@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q007",
+  "area": "Marketing and Communications",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q007-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"Analyzing influencer partnerships and their measurable revenue impact reveals a moderate level of data-driven success. While several influencers demonstrate strong engagement with target demographics, identifying specific partners delivering consistent and substantial revenue growth presents a significant opportunity for optimization. The data suggests a focus on established, well-compensated influencers, potentially limiting scalability and long-term revenue potential, requiring further investigation into high-impact, high-reward collaborations.\",\n    \"strengths\": [\n      \"Strong emphasis on established influencer networks with demonstrable engagement data.\",\n      \"Identifies key demographic segments with active influencer partnerships.\",\n      \"Recognizes the need for deeper analysis to unlock scalability and revenue gains.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics to quantify revenue impact across defined partnerships.\",\n      \"Limited examination of influencer tiers and revenue models.\",\n      \"Doesn't delve into potential revenue models beyond direct payments.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

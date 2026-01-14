@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q004",
+  "area": "Information Technology (IT)",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q004-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 5,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis indicates a complex risk assessment, requiring careful consideration of potential ramifications.\",\n    \"strengths\": [\n      \"Explicitly addresses the need for a multifaceted monetization strategy.\",\n      \"Recognizes the inherent difficulty of balancing profit and ethical considerations.\",\n      \"Mentions potential pitfalls in data-driven monetization.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific recommendations or actionable steps for mitigating risks.\",\n      \"Overly general statements regarding ethical considerations; requires greater depth.\",\n      \"Does not fully integrate potential security vulnerabilities.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

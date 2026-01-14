@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q006",
+  "area": "Operations",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/operations/operations-q006-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"Analysis of cost and speed optimization opportunities necessitates rigorous assessment of available resources and projected returns. Prioritized focusing on quantifiable metrics will yield the most efficient strategies.\",\n    \"strengths\": [\n      \"Detailed breakdown of potential cost savings and speed enhancements across various operational areas.\",\n      \"Emphasis on identifying opportunities leveraging existing infrastructure and technological assets.\",\n      \"Clear articulation of key performance indicators (KPIs) to guide strategic decision-making.\",\n      \"Logical prioritization of optimization efforts based on anticipated return on investment (ROI).\"\n    ],\n    \"weaknesses\": [\n      \"Limited scope – lacks specific data on potential ROI for each proposed action.\",\n      \"Over-reliance on broad strategic concepts without detailed cost-benefit analysis.\",\n      \"No assessment of risks associated with implementing specific optimization strategies.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

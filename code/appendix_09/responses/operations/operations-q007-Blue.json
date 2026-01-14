@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q007",
+  "area": "Operations",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/operations/operations-q007-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a strong understanding of the problem, but requires further detail regarding specific operational improvements and quantifiable metrics to truly elevate the planning process. The current assessment leans toward a robust conceptual framework but lacks concrete data-driven recommendations for optimization.  The objective is to improve capacity planning through reduced stockouts and minimized overproduction; this requires a substantial expansion of analytical rigor and strategic suggestions.\",\n    \"strengths\": [\n      \"Recognizes the core challenge: capacity planning and stockout/overproduction reduction.\",\n      \"Demonstrates a fundamental understanding of the problem's complexity.\",\n      \"Addresses a critical operational aspect.\",\n      \"Acknowledges the need for strategic improvement.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific, measurable recommendations for optimization.\",\n      \"Limited discussion of current constraints or existing capacity models.\",\n      \"No quantified metrics or data points to support recommendations.\",\n      \"Doesn't fully address root causes of potential issues.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

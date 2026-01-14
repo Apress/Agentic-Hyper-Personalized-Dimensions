@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q001",
+  "area": "Marketing and Communications",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q001-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"Analyzing channel performance based on cost-effectiveness and marketing effectiveness. Initial assessment suggests channels yielding the lowest CAC, with a high degree of data-driven understanding.\",\n    \"strengths\": [\n      \"Clearly identifies channels with the highest CAC compared to established benchmarks.\",\n      \"Data-focused approach, leveraging marketing spend to prioritize analysis.\",\n      \"Robustness of criteria to establish a baseline for comparison.\",\n      \"Focus on precise cost of acquisition, a critical metric for CAC.\"\n    ],\n    \"weaknesses\": [\n      \"Limited granularity in assessing the *reason* for the lower CAC (e.g., channel-specific factors).\",\n      \"No detailed comparison against key industry benchmarks or competitor data.\",\n      \"No proposed next steps for improving performance beyond simply identifying the lowest-performing channels.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

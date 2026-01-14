@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q002",
+  "area": "Operations",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/operations/operations-q002-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 5,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis reveals potential for increased efficiency through automation, but requires careful assessment of risk mitigation strategies and potential for unforeseen consequences.\",\n    \"strengths\": [\n      \"Identifies multiple workflows for automation – a crucial starting point.\",\n      \"Acknowledges the potential for significant speed and accuracy gains.\",\n      \"Highlights the need for proactive risk assessment.\"\n    ],\n    \"weaknesses\": [\n      \"Scores are relatively low across several criteria, indicating a need for focused prioritization.\",\n      \"Lacks specific examples of automation to support the assessment.\",\n      \"Doesn’t sufficiently address potential operational impacts or workforce adjustments.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

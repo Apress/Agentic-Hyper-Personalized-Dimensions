@@ -1,0 +1,8 @@
+{
+  "question_id": "operations-q002",
+  "area": "Operations",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/operations/operations-q002-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.7,\n  \"justification\": {\n    \"summary\": \"The analysis suggests a robust suite of automation workflows with high potential for efficiency gains. Prioritization of workflows focused on data analysis and report generation yields significant improvements in speed and accuracy. The evaluation considers a wide range of factors including accuracy, traceability, and the degree to which the potential for automation directly contributes to streamlining operational processes.\",\n    \"strengths\": [\n      \"Comprehensive workflow assessment\",\n      \"Clear identification of key automation opportunities\",\n      \"Strong emphasis on data-driven improvement\"\n    ],\n    \"weaknesses\": [\n      \"Lack of quantifiable metrics to support decision-making\",\n      \"Limited consideration of potential risks associated with automation\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

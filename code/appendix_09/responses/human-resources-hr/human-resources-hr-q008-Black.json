@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q008",
+  "area": "Human Resources (HR)",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q008-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis suggests potential for a moderate level of risk in measuring HR initiatives through cost-benefit, requiring careful consideration of methodologies and data collection. The current assessment lacks a robust framework for quantifying the *impact* of wellbeing initiatives beyond simple metrics.\",\n    \"strengths\": [\n      \"Acknowledges the importance of measurement\",\n      \"Highlights the need for detailed data gathering\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific methodologies or quantifiable metrics\",\n      \"Insufficient consideration of potential biases in data collection or interpretation\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

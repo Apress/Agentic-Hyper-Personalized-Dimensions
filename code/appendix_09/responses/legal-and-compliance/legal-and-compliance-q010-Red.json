@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q010",
+  "area": "Legal and Compliance",
+  "dimension": "RED",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q010-Red.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Red\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 3,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Initial assessment suggests a need for focused action on process optimization, potential for rapid refinement, but lacks detailed quantitative projections.\",\n    \"strengths\": [\n      \"Acknowledges the core issue – cycle time and cash recovery – is critical.\",\n      \"Highlights the importance of immediate improvements.\",\n      \"Recognizes the complexity of the problem.\"\n    ],\n    \"weaknesses\": [\n      \"Insufficient data to establish baseline performance metrics.\",\n      \"Limited exploration of potential rapid solutions.\",\n      \"Missing a clear path to measurable progress.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

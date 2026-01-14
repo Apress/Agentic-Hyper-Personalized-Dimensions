@@ -1,0 +1,8 @@
+{
+  "question_id": "legal-and-compliance-q006",
+  "area": "Legal and Compliance",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/legal-and-compliance/legal-and-compliance-q006-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"Analysis of legal and compliance coverage, emphasizing data integrity and risk mitigation protocols. Verification of insurance and reserve arrangements suggests a cautious approach to potential liabilities. The assessment necessitates a deeper investigation into the specific legal precedents related to this domain.\",\n    \"strengths\": [\n      \"Clear delineation of the White dimension's role – focused on legal and compliance assurance.\",\n      \"Recognition of the importance of prudent reserve allocation in mitigating potential claims.\",\n      \"Assessment of current operational practices suggests a proactive, yet cautious, approach to legal risk management.\"\n    ],\n    \"weaknesses\": [\n      \"Limited quantitative data on specific insurance policy terms and reserves – a more granular dataset would strengthen the assessment.\",\n      \"Lack of detail regarding the specific types of legal disputes currently impacting the dimension.\",\n      \"No reference to regulatory frameworks or compliance standards applicable to the white dimension's actions.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

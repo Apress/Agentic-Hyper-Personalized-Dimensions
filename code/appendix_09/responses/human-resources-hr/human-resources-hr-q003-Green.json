@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q003",
+  "area": "Human Resources (HR)",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q003-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"A thorough assessment of engagement reduction strategies, prioritizing proactive, adaptable methods that capitalize on the present state of human capital. While existing approaches demonstrate a solid foundation, potential for enhanced personalization and continuous monitoring necessitates a strategic refinement of current implementations.\",\n    \"strengths\": [\n      \"Acknowledges the core issue of turnover – a critical starting point.\",\n      \"Emphasizes the need for adaptation – a key dimension of effective HR management.\",\n      \"Highlights the importance of continuous evaluation – a vital element for long-term success.\",\n      \"Explicitly calls for personalized solutions – fostering higher engagement.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific quantifiable metrics for 'engagement reduction' – requires further granularization.\",\n      \"Doesn't fully address the root causes of turnover (beyond superficial symptoms).\",\n      \"The 'actionable next steps' portion is somewhat vague – needs more concrete suggestions.\",\n      \"Doesn’t explicitly highlight the role of employee well-being as a potential driver of engagement.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

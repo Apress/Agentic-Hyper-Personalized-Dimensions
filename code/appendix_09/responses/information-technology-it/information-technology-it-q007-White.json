@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q007",
+  "area": "Information Technology (IT)",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q007-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A robust evaluation considering data governance, privacy, actionability, clarity, and the demonstrated need for quantifiable improvements to minimize risks. The assessment acknowledges the complex interplay of factors influencing data protection, requiring a multi-faceted approach to strengthen governance.\",\n    \"strengths\": [\n      \"Clearly identifies key areas needing improvement – including the necessity of robust risk assessment and proportionate enforcement.\",\n      \"Highlights the potential for quantifiable improvements through enhanced monitoring and automated controls.\",\n      \"Emphasizes the importance of continuous auditing and adaptation to evolving threats.\",\n      \"Justifies the need for a layered approach to data protection, addressing potential vulnerabilities across various domains.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific metrics for quantifying 'risk' and 'rework' – focusing primarily on conceptual improvements.\",\n      \"Doesn’t explicitly detail *how* these improvements will be achieved – merely stating a need for 'enhanced monitoring'.\",\n      \"Could benefit from referencing specific regulatory frameworks (e.g., GDPR, CCPA) to contextualize the challenges.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q008",
+  "area": "Finance",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/finance/finance-q008-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis reveals a potentially volatile and susceptible investment profile, demanding meticulous risk mitigation strategies.\",\n    \"strengths\": [\n      \"Recognizes the inherent instability of certain asset classes.\",\n      \"Highlights the need for robust diversification strategies.\",\n      \"Points to the importance of scenario planning.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific risk assessment metrics.\",\n      \"Doesn't fully delineate suitable return profiles.\",\n      \"Overly generalized - requires deeper investigation into individual investment types.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

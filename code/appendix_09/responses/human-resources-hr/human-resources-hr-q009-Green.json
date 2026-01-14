@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q009",
+  "area": "Human Resources (HR)",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q009-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A thorough analysis of potential redeployment opportunities, prioritizing strategic alignment and demonstrable impact. The assessment highlights robust internal talent assessment methodologies and focused on maximizing contribution within existing roles. Potential for accelerated growth through enhanced skillsets. \",\n    \"strengths\": [\n      \"Identifies a range of potential redeployment areas, including specialized skills and project management focus.\",\n      \"Recognizes the value of cross-functional expertise – a critical component of innovation.\",\n      \"Considers the long-term value of retained talent, leading to sustained contributions.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific data points to quantify 'higher-value' roles.  Requires establishing clear metrics for assessing these distinctions.\",\n      \"Doesn't explicitly address the potential for leveraging existing talent to drive innovation within current functions, offering a more focused directive.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

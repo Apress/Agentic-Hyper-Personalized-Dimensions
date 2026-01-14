@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q006",
+  "area": "Marketing and Communications",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q006-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Customer churn is a critical metric for business success, and effective retention campaigns are essential. Initial analysis suggests a considerable cost associated with churn, necessitating a thorough examination of its root causes and potential mitigation strategies. Understanding the specific cost requires detailed data, but preliminary assessment indicates a significant financial impact.  The focus should be on quantifying the cost and identifying key areas for improvement.  The current scoring reflects a robust and well-considered approach, requiring further refinement through more granular analysis.\",\n    \"strengths\": [\n      \"Clearly identifies churn as a core concern.\",\n      \"Recognizes the financial implications of high churn rates.\",\n      \"Emphasizes the need for data-driven insights.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific data points regarding churn cost (e.g., average cost per customer lost).\",\n      \"Doesn't explicitly outline specific retention campaign strategies.\",\n      \"Doesn't explore potential underlying causes of churn.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

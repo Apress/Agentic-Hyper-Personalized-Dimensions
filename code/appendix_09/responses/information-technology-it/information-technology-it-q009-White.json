@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q009",
+  "area": "Information Technology (IT)",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q009-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.2,\n  \"justification\": {\n    \"summary\": \"The assessment prioritizes rigorous data analysis and establishes a clear understanding of the importance of uptime and MTTR in protecting revenue and reducing disruption. The focus on quantifiable targets demonstrates a robust understanding of critical business metrics.\",\n    \"strengths\": [\n      \"Clearly articulates the core objectives – revenue protection and disruption reduction – which form the basis for reliability targets.\",\n      \"Recognizes the significant impact of uptime and MTTR on organizational success.\",\n      \"Identifies key indicators – uptime and MTTR – as fundamental to achieving these goals.\",\n      \"The proposed scoring system provides a structured approach to evaluating these targets.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific quantifiable targets for uptime and MTTR.  The assessment only states their importance, not the actual values.\",\n      \"Does not address potential risks or uncertainties associated with these targets.\",\n      \"Limited consideration of the context within which these targets are set.  The assessment requires further insight into business priorities.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

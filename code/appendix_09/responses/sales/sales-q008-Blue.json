@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q008",
+  "area": "Sales",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/sales/sales-q008-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"Analysis indicates strong coverage and specificity, with a good balance of detail and clarity. The scoring suggests a solid assessment of channel profitability, supported by a well-structured approach. While the ‘distinctiveness’ component could benefit from a stronger differentiator, the overall assessment demonstrates effective thought process and insightful analysis.\",\n    \"strengths\": [\n      \"Thorough examination of multiple revenue streams.\",\n      \"Focuses on key performance indicators (KPIs) and their impact on profitability.\",\n      \"Provides a good overview of current channel performance.\",\n      \"Clearly articulated rationale for assessment.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific numerical data for comparison across channels. Quantifying the gains/losses would strengthen the analysis.\",\n      \"Could benefit from a more detailed discussion of potential challenges and risks associated with each channel.\",\n      \"The justification lacks specific recommendations. Actionable insights are missing.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

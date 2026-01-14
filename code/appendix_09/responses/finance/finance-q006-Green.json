@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q006",
+  "area": "Finance",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/finance/finance-q006-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"This assessment considers several crucial elements of collection efficiency and debtor management, leveraging radical innovation to identify actionable improvements. The analysis prioritizes proactive strategies to minimize risk, ensuring robust financial stability.  However, more detailed data and quantifiable metrics would further strengthen the recommendations.\",\n    \"strengths\": [\n      \"Recognizes the critical importance of proactive debt reduction strategies.\",\n      \"Focuses on diversified collection methods – a fundamental concept in any green dimension operation.\",\n      \"Employs a pragmatic approach – acknowledging refinement later, but setting clear targets for immediate gains.\",\n      \"Considers multiple facets – debt collection, collection efficiency, and debtor management.\",\n    ],\n    \"weaknesses\": [\n      \"Limited scope – the analysis lacks specific methodologies for measurement (e.g., cost/benefit ratios).\",\n      \"No benchmarks for current efficiency levels - requires data to drive optimization.\",\n      \"Doesn't address the root causes of debtor risk – focusing solely on alleviation.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

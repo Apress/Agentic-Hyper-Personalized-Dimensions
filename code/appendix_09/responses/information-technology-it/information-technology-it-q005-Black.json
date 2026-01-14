@@ -1,0 +1,8 @@
+{
+  "question_id": "information-technology-it-q005",
+  "area": "Information Technology (IT)",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/information-technology-it/information-technology-it-q005-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 4,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 3\n  },\n  \"overall_score\": 3.2,\n  \"justification\": {\n    \"summary\": \"Analysis suggests a moderate balance between thoroughness and practical assessment of payback timelines.\",\n    \"strengths\": [\n      \"Acknowledges the importance of early investment returns.\",\n      \"Highlights a need for more specific data regarding technological advancements.\",\n      \"Recognizes the potential for quick gains but lacks robust quantitative analysis.\"\n    ],\n    \"weaknesses\": [\n      \"Limited consideration of long-term strategic value.\",\n      \"Insufficient assessment of risk mitigation strategies.\",\n      \"Lack of clear methodology for determining 'fastest payback'.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

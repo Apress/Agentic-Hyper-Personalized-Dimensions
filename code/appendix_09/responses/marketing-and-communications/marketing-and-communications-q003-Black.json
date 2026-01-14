@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q003",
+  "area": "Marketing and Communications",
+  "dimension": "BLACK",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q003-Black.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Black\",\n  \"criteria_scores\": {\n    \"PF\": 3,\n    \"COV\": 4,\n    \"SPEC\": 5,\n    \"ACT\": 3,\n    \"DIST\": 4,\n    \"CLAR\": 4\n  },\n  \"overall_score\": 3.8,\n  \"justification\": {\n    \"summary\": \"Analysis of potential risks and implementation strategies requires cautious consideration, highlighting potential flaws in current approaches and risks associated with overly aggressive trust-building measures. The assessment of specific implementation tactics and long-term sustainability requires further exploration.\",\n    \"strengths\": [\n      \"Clearly articulates the importance of long-term strategic thinking.\",\n      \"Recognizes the potential for unintended consequences.\",\n      \"Focuses on the need for robust risk assessment.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks concrete examples of specific trust-building initiatives.\",\n      \"Doesn't sufficiently address potential negative impacts on brand perception.\",\n      \"Limited consideration of evolving market dynamics.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

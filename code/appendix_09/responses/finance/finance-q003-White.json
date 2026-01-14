@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q003",
+  "area": "Finance",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/finance/finance-q003-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"This assessment analyzes key expense categories to determine flexibility.  The scoring reflects a robust understanding of variable and fixed cost impacts, prioritizing verifiable data and careful consideration of potential complexities. The analysis comprehensively explores the core question.\",\n    \"strengths\": [\n      \"Detailed categorization of expense types (fixed & variable).\",\n      \"Explicit focus on potential for cost adjustments.\",\n      \"Recognizes the importance of strategic spending.\",\n      \"Clear articulation of the goal: increased flexibility.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific examples of how these expense changes directly affect organizational goals.\",\n      \"No quantification of potential financial impact of these changes.\",\n      \"Limited consideration of long-term implications of flexibility.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

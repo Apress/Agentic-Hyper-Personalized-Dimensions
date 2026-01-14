@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q001",
+  "area": "Sales",
+  "dimension": "BLUE",
+  "prompt_file": "prompts/sales/sales-q001-Blue.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Blue\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"A thorough analysis of conversion rates, considering various factors and leveraging data-driven insights to suggest actionable strategies.\",\n    \"strengths\": [\n      \"Clearly identifies key conversion pathways and potential areas for improvement.\",\n      \"Proposes a multi-faceted approach incorporating A/B testing, personalized messaging, and optimization of the sales funnel.\",\n      \"Considers customer segmentation and behavior analysis as crucial components of success.\"\n    ],\n    \"weaknesses\": [\n      \"Could benefit from incorporating specific conversion rate benchmarks for comparison across different segments.  A more concrete 'before & after' scenario would strengthen the analysis.\",\n      \"The suggestion of 'personalized messaging' lacks a detailed implementation strategy, requiring further elaboration on best practices.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

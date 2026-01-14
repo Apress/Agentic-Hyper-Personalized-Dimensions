@@ -1,0 +1,8 @@
+{
+  "question_id": "human-resources-hr-q003",
+  "area": "Human Resources (HR)",
+  "dimension": "WHITE",
+  "prompt_file": "prompts/human-resources-hr/human-resources-hr-q003-White.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"White\",\n  \"criteria_scores\": {\n    \"PF\": 5,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.75,\n  \"justification\": {\n    \"summary\": \"A comprehensive analysis of strategies to reduce turnover, considering engagement as a key factor. The scoring focuses on a robust methodology incorporating multiple perspectives and emphasizing quantifiable measures.\",\n    \"strengths\": [\n      \"Clearly defines engagement as a critical driver of turnover, necessitating proactive measures.\",\n      \"Proposes a multi-faceted approach – including compensation, benefits, development, and work environment – to address the root causes of attrition.\",\n      \"Acknowledges the need for ongoing monitoring and adjustment based on data-driven insights.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks specific, measurable targets for each engagement-reduction strategy. The 'how' and 'how much' of each action isn't quantified.\",\n      \"Doesn't delve into specific engagement metrics (e.g., employee satisfaction scores, retention rates) to establish a baseline for evaluation.\",\n      \"Doesn't address potential unintended consequences of engagement-focused initiatives.\",\n      \"Limited consideration of individual employee needs and preferences.”\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

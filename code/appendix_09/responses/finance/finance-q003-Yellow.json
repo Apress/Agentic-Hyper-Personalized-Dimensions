@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q003",
+  "area": "Finance",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/finance/finance-q003-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A thorough analysis of potential cost-shifting opportunities, grounded in established financial principles and practical application.  The identified options offer a compelling pathway to enhanced flexibility, underpinned by manageable risk profiles.\",\n    \"strengths\": [\n      \"Identifies several key areas for cost optimization, such as inventory management and supply chain adjustments.\",\n      \"Considers the strategic implications of cost realignment, aligning with long-term financial goals.\",\n      \"Proposes a phased approach, mitigating potential disruption to operations while maximizing benefits.\",\n      \"Employs a robust framework of analysis and prioritization, focusing on opportunities with highest potential returns and lowest inherent risks.\"\n    ],\n    \"weaknesses\": [\n      \"Limited detailed financial modeling to quantify potential savings (e.g., ROI calculations).\",\n      \"Doesn't explicitly address potential regulatory or tax implications of cost shifting.\",\n      \"Doesn't delve deeply into specific industry benchmarks to assess competitiveness.\",\n      \"Could benefit from a more granular breakdown of cost allocation across different departments or product lines.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

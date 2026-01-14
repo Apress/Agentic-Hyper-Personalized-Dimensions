@@ -1,0 +1,8 @@
+{
+  "question_id": "sales-q005",
+  "area": "Sales",
+  "dimension": "YELLOW",
+  "prompt_file": "prompts/sales/sales-q005-Yellow.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Yellow\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"Initial assessment reveals a strong focus on quantifiable ROI through targeted sales activities. The scoring is well-balanced across key dimensions – PF demonstrates considerable reliability, COV is remarkably high, SPEC is technically precise, ACT signifies adequate clarity, DIST highlights a good focus on key metrics, and CLAR shows a competent and well-organized approach.\",\n    \"strengths\": [\n      \"Strong emphasis on potential ROI calculations.\",\n      \"Careful consideration of potential value propositions.\",\n      \"Well-structured evaluation framework.\"\n    ],\n    \"weaknesses\": [\n      \"Lack of specific quantifiable metrics for each activity.  ROI calculation needs to be incorporated.\",\n      \"Could benefit from incorporating real-world data for enhanced accuracy.\",\n      \"Limited exploration of potential customer segment impacts on ROI\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

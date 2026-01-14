@@ -1,0 +1,8 @@
+{
+  "question_id": "finance-q003",
+  "area": "Finance",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/finance/finance-q003-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"This analysis explores potential cost-saving mechanisms through financial flexibility, prioritizing proactive adjustments over reactive fixes. The assessment hinges on providing concrete examples of cost reductions that can be achieved through improved resource allocation and expense management. A focus on identifying tangible, measurable gains is crucial for demonstrating effectiveness.\",\n    \"strengths\": [\n      \"Well-structured assessment emphasizing tangible benefits.\",\n      \"Clearly identifies key areas for cost optimization.\",\n      \"Strong emphasis on quantifiable results.\"\n    ],\n    \"weaknesses\": [\n      \"Lacks detailed cost analysis data for each proposed conversion.\",\n      \"Doesn't fully explore the complexity of managing such conversions.\",\n      \"Potential for oversimplification of financial strategies.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "marketing-and-communications-q004",
+  "area": "Marketing and Communications",
+  "dimension": "GREEN",
+  "prompt_file": "prompts/marketing-and-communications/marketing-and-communications-q004-Green.prompt.txt",
+  "response_text": "```json\n{\n  \"dimension_name\": \"Green\",\n  \"criteria_scores\": {\n    \"PF\": 4,\n    \"COV\": 5,\n    \"SPEC\": 4,\n    \"ACT\": 4,\n    \"DIST\": 5,\n    \"CLAR\": 5\n  },\n  \"overall_score\": 4.6,\n  \"justification\": {\n    \"summary\": \"A thorough analysis of established marketing channels, prioritizing engagement and conversion through data-driven insights and experimentation. Focus on a multifaceted approach considering current trends and prioritizing scalable, measurable strategies.\",\n    \"strengths\": [\n      \"Strongly emphasizes data analytics and A/B testing as core methodologies.\",\n      \"Recognizes the increasing importance of mobile-first strategies and social media platforms.\",\n      \"Considers the impact of personalization and targeted content delivery.\",\n      \"Highlights the need for continuous optimization based on performance metrics.\",\n      \"Acknowledges the need for iterative strategy development, emphasizing a cyclical approach to growth.\"\n    ],\n    \"weaknesses\": [\n      \"Could benefit from a more granular breakdown of channel performance across different platforms, focusing on ROI.\",\n      \"Lacks specific recommendations for each channel identified – more focused action planning is warranted.\",\n      \"Doesn’t explicitly address the role of customer journey mapping and conversion paths.\"\n    ]\n  }\n}\n```",
+  "model": "gemma3:1b"
+}
