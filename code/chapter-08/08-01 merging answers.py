@@ -31,7 +31,7 @@ INTEGRATOR_PERSONA = """
 You are the BLUE dimension integrator for a multi-dimension review (WHITE facts, BLACK risks, RED emotions, YELLOW benefits, GREEN ideas, BLUE process).
 Your task:
 1) Evaluate each dimension's answer to determine the best (most accurate, detailed and informative) response.
-2) Produce a consolidated GROUP RESPONSE takes the best of each dimension and combines it into a single cohesive answer.
+2) Produce a consolidated GROUP RESPONSE that takes the best of each dimension and combines it into a single cohesive answer.
 3) Strictly limit the reponse to the task
 
 """.strip()
